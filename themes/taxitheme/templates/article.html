@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }} : {{ article.title|striptags }}{% endblock %}
+{% block description %}{{ article.description }}{% endblock %}
+{% block content %}
+         <section id="pcontent" class="home-section">
+            <div class="heading-about text-center">
+                <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="wow bounceInDown" data-wow-delay="0.4s">
+                        <div class="section-heading">
+                        <h2><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
+            title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
+                        <i class="fa fa-2x fa-angle-down"></i>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="container">
+  
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+      {% include 'article_infos.html' %}
+      {{ article.content }}
+             </div>
+            </div>
+            </div>
+        </section>
+{% endblock %}
+

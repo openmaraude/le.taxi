@@ -1,0 +1,19 @@
+<div class="post-info">
+        <abbr class="published" title="{{ article.date.isoformat() }}">
+                Publié le {{ article.locale_date }}
+        </abbr>
+        {% if article.modified %}
+        <abbr class="modified" title="{{ article.modified.isoformat() }}">
+                mis à jour le {{ article.locale_modified }}
+        </abbr>
+        {% endif %}
+        {# if article.authors %}
+                par {% for author in article.authors %}
+                        <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+                {% endfor %}
+        {% endif #}
+dans  <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>.
+{% include 'taglist.html' %}
+{% import 'translations.html' as translations with context %}
+{{ translations.translations_for(article) }}
+</div><!-- /.post-info -->

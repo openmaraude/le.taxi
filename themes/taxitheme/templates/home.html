@@ -1,0 +1,349 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }} : {{ page.title }}{% endblock %}
+{% block description %}{{ page.description }}{% endblock %}
+{% block ghostlogo %}
+                <a class="navbar-brand ghost-logo" href="index.html#intro">
+                     <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo_le.taxi.svg">
+                 </a>
+{% endblock %}
+
+{% block content %}
+          <a name="pcontent"></a>
+
+    <!-- Section: intro -->
+    <section id="intro" class="intro">
+        <div class="slogan">
+            <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo_le.taxi.svg">
+            <h4>Un clic, un taxi</h4>
+        </div>
+        <div class="page-scroll">
+            <a href="#how" class="btn btn-circle">
+                <i class="fa fa-angle-double-down animated"></i>
+            </a>
+        </div>
+    </section>
+    <!-- /Section: intro -->
+
+     <!-- Section: how -->
+      <section id="how" class="home-section text-center">
+          <div class="heading-about">
+              <div class="container">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2">
+                      <div class="wow bounceInDown" data-wow-delay="0.4s">
+                      <div class="section-heading">
+                      <h2>Comment ça marche ?</h2>
+                      <i class="fa fa-2x fa-angle-down"></i>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          <div class="container">
+          <div class="row">
+              <div class="col-lg-2 col-lg-offset-5">
+                  <hr class="marginbot-50">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                  <div class="wow bounceInUp" data-wow-delay="0.4s">
+                  <div class="team boxed-grey">
+                      <div class="inner">
+                          <h5>un clic</h5>
+                          <div class="avatar"><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/howto/1.jpg" alt="" class="img-responsive img-thumbnail" /></div>
+                          <p class="caption">Sur son smartphone, le
+                          client utilise n'importe
+                          quelle application agréée
+                          pour héler un taxi au
+                          plus près, dans sa zone
+                          de prise charge, partout
+                          en France, 24h/24</p>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                  <div class="wow bounceInUp" data-wow-delay="0.6s">
+                  <div class="team boxed-grey">
+                      <div class="inner">
+                          <h5>un taxi</h5>
+                          <div class="avatar"><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/howto/2.jpg" alt="" class="img-responsive img-thumbnail" /></div>
+                          <p class="caption">Le chauffeur de taxi qui a décidé d'être visible
+                          utilise ses outils habituels (terminal embarqué
+                          ou application mobile) pour confirmer la course</p>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-4">
+                  <div class="wow bounceInUp" data-wow-delay="0.8s">
+                  <div class="team boxed-grey">
+                      <div class="inner">
+                          <h5>tout simplement</h5>
+                          <div class="avatar"><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/howto/3.jpg" alt="" class="img-responsive img-thumbnail" /></div>
+                          <p class="caption">Le client paie sa course directement au chauffeur, en liquide ou par carte bancaire<br>
+                           Le client peut évaluer la course</p>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+          </div>
+          </div>
+      </section>
+      <!-- /Section: how -->
+
+    <!-- Section: why -->
+    <section id="why" class="home-section text-center bg-dark text-light">
+        <div class="heading-about">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow bounceInDown" data-wow-delay="0.2s">
+                    <div class="section-heading">
+                    <h2>Pourquoi le taxi ?</h2>
+                    <i class="fa fa-2x fa-angle-down"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-5">
+                <hr class="marginbot-50">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-md-3">
+                <div class="wow fadeInLeft" data-wow-delay="0.4s">
+                <div class="service-box">
+                    <div class="service-icon">
+                        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/france.svg" alt="" style="width:48px;height:48px;" />
+                    </div>
+                    <div class="service-desc">
+                        <h5>Partout en France</h5>
+                        <p class="caption">Le Taxi, c'est plus de 50.000 chauffeurs en France, partout sur le territoire, de la plus petite commune à la plus grande métropole</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="wow fadeInUp" data-wow-delay="0.6s">
+                <div class="service-box">
+                    <div class="service-icon">
+                        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/clock.svg" alt="" style="width:48px;height:48px;" />
+                    </div>
+                    <div class="service-desc">
+                        <h5>Disponibilité</h5>
+                        <p class="caption">Le Taxi c'est la garantie de commander immédiatement un véhicule au plus près, quel que soit le lieu, le jour ou l'heure.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="wow fadeInUp" data-wow-delay="0.8s">
+                <div class="service-box">
+                    <div class="service-icon">
+                        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/smiley.svg" alt="" style="width:48px;height:48px;" />
+                    </div>
+                    <div class="service-desc">
+                        <h5>Qualité</h5>
+                        <p class="caption">Le Taxi, c'est une exigence de qualité renforcée, car ce sont désormais les usagers qui participent à l'évaluation permanente du service.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-md-3">
+                <div class="wow fadeInRight" data-wow-delay="1.0s">
+                <div class="service-box">
+                    <div class="service-icon">
+                        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/icons/shield.svg" alt="" style="width:48px;height:48px;" />
+                    </div>
+                    <div class="service-desc">
+                        <h5>Sécurité</h5>
+                        <p class="caption">Le Taxi c'est la garantie d'un chauffeur professionnel et d'applications agréées respectueuses de la vie privée.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- /Section: why -->
+
+
+    <!-- Section: who -->
+    <section id="who" class="home-section text-center">
+        <div class="heading-about">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow bounceInDown" data-wow-delay="0.4s">
+                    <div class="section-heading">
+                    <h2>Les Partenaires</h2>
+                    <i class="fa fa-2x fa-angle-down"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-5">
+                <hr class="marginbot-50">
+            </div>
+        </div>
+        <div class="row">
+             <div class="col-xs-6 col-sm-3 col-md-3">
+                 <div class="wow bounceInUp" data-wow-delay="0.4s">
+                 <div class="team boxed-grey">
+                     <div class="inner">
+                         <h5>Atlantis Taxis</h5>
+                         <p class="subtitle">Opérateur<br>en cours de certification</p>
+                         <div class="avatar"><img src="{{ SITEURL }}/images/team/atlantis.png" alt="" class="img-responsive img-circle" /></div>
+                     </div>
+                 </div>
+                 </div>
+             </div>
+
+             <div class="col-xs-6 col-sm-3 col-md-3">
+                 <div class="wow bounceInUp" data-wow-delay="0.2s">
+                 <div class="team boxed-grey">
+                     <div class="inner">
+                         <h5>Axygest</h5>
+                         <p class="subtitle">Equipementier<br>en cours de certification</p>
+                         <div class="avatar"><img src="{{ SITEURL }}/images/team/axygest.png" alt="" class="img-responsive img-circle" /></div>
+                     </div>
+                 </div>
+                 </div>
+             </div>
+
+             <div class="col-xs-6 col-sm-3 col-md-3">
+                   <div class="wow bounceInUp" data-wow-delay="0.4s">
+                   <div class="team boxed-grey">
+                       <div class="inner">
+                           <h5>Les Taxis Marseillais</h5>
+                           <p class="subtitle">Opérateur<br>en cours de certification</p>
+                           <div class="avatar"><img src="{{ SITEURL }}/images/team/taxis-marseillais.png" alt="" class="img-responsive img-circle" /></div>
+                       </div>
+                   </div>
+                   </div>
+               </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="wow bounceInUp" data-wow-delay="0.8s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+                        <h5>Mob1Taxi</h5>
+                        <p class="subtitle">Opérateur<br>en cours de certification</p>
+                        <div class="avatar"><img src="{{ SITEURL }}/images/team/mob1taxi.png" alt="" class="img-responsive img-circle" /></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+              <div class="col-lg-2 col-lg-offset-5">
+                  <hr class="marginbot-50">
+              </div>
+          </div>
+         <div class="row">
+             <div class="col-xs-6 col-sm-3 col-md-3">
+                 <div class="wow bounceInUp" data-wow-delay="0.6s">
+                 <div class="team boxed-grey">
+                     <div class="inner">
+                         <h5>MonTaxi</h5>
+                         <p class="subtitle">Equipementier<br>en cours de certification</p>
+                         <div class="avatar"><img src="{{ SITEURL }}/images/team/montaxi.png" alt="" class="img-responsive img-circle" /></div>
+                     </div>
+                 </div>
+                 </div>
+             </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="wow bounceInUp" data-wow-delay="0.4s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+                        <h5>Taxi Bleu du Midi</h5>
+                        <p class="subtitle">Opérateur<br>en cours de certification</p>
+                        <div class="avatar"><img src="{{ SITEURL }}/images/team/tbdm.png" alt="" class="img-responsive img-circle" /></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="wow bounceInUp" data-wow-delay="0.6s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+                        <h5>TaxiLoc</h5>
+                        <p class="subtitle">Opérateur<br>en cours de certification</p>
+                        <div class="avatar"><img src="{{ SITEURL }}/images/team/taxiloc.png" alt="" class="img-responsive img-circle" /></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <div class="wow bounceInUp" data-wow-delay="0.2s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+                        <h5>TaxiProxi</h5>
+                        <p class="subtitle">Opérateur<br>en cours de certification</p>
+                        <div class="avatar"><img src="{{ SITEURL }}/images/team/taxiproxi.png" alt="" class="img-responsive img-circle" /></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+         </div>
+        <div class="row">
+               <div class="col-lg-2 col-lg-offset-5">
+                   <hr class="marginbot-50">
+               </div>
+           </div>
+          <div class="row">
+             <div class="col-xs-6 col-sm-3 col-md-3">
+                 <div class="wow bounceInUp" data-wow-delay=0.8s">
+                 <div class="team boxed-grey">
+                     <div class="inner">
+                         <h5>Taxis G7</h5>
+                         <p class="subtitle">Opérateur<br>en cours de certification</p>
+                         <div class="avatar"><img src="{{ SITEURL }}/images/team/g7.png" alt="" class="img-responsive img-circle" /></div>
+                     </div>
+                 </div>
+                 </div>
+             </div>
+             <div class="col-xs-6 col-sm-3 col-md-3">
+                  <div class="wow bounceInUp" data-wow-delay=0.8s">
+                  <div class="team boxed-grey">
+                      <div class="inner">
+                          <h5>Taxis Rennais</h5>
+                          <p class="subtitle">Opérateur<br>en cours de certification</p>
+                          <div class="avatar"><img src="{{ SITEURL }}/images/team/taxis-rennais.png" alt="" class="img-responsive img-circle" /></div>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+             <div class="col-xs-6 col-sm-3 col-md-3">
+                 <div class="wow bounceInUp" data-wow-delay="0.4s">
+                 <div class="team boxed-grey">
+                     <div class="inner">
+                         <h5>UNT</h5>
+                         <p class="subtitle">Opérateur<br>en cours de certification</p>
+                         <div class="avatar"><img src="{{ SITEURL }}/images/team/unt.png" alt="" class="img-responsive img-circle" /></div>
+
+                     </div>
+                 </div>
+                 </div>
+             </div>
+         </div>
+      </div>
+    </section>
+    <!-- /Section: who -->
+
+    {% endblock %}
+
+
+
