@@ -1,4 +1,7 @@
 dependencies:
+      pre:
+            - curl -o $HOME/google_appengine_1.9.28.zip https://storage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.28.zip
+            - unzip -q -d $HOME $HOME/google_appengine_1.9.28.zip
       override:
             - virtualenv pelican
             - source pelican/bin/activate
@@ -6,3 +9,8 @@ dependencies:
 test:
       override:
             - make html
+deployment:
+      appengine:
+            branch: master
+            commands:
+                  - echo $APPENGINE_PASSWORD | $HOME/google_appengine/appcfg.py update --email=$APPENGINE_EMAIL --passin ./output
