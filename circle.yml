@@ -13,4 +13,4 @@ deployment:
       appengine:
             branch: master
             commands:
-                  - echo $APPENGINE_PASSWORD | $HOME/google_appengine/appcfg.py update --email=$APPENGINE_EMAIL --passin ./output
+                  - echo $APPENGINE_PASSWORD | $HOME/google_appengine/appcfg.py update --email=$APPENGINE_EMAIL ./output
