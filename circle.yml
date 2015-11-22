@@ -2,7 +2,7 @@ dependencies:
       override:
             - virtualenv pelican
             - source pelican/bin/activate
-            - pip install pelican webassets cssmin
+            - pip install pelican webassets cssmin markdown
 test:
       override:
             - make html
