@@ -1,0 +1,17 @@
+application: letaxi-website
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: false
+
+handlers:
+- url: /(.*\.(gif|png|jpg|ico|svg|js|json|otf|woff2|woff|ttf|css))
+  static_files: \1
+  upload: (.*\.(gif|png|jpg|ico|svg|js|json|otf|woff2|woff|ttf|css))
+
+- url: /robots.txt
+  static_files: robots.txt
+  upload: robots.txt
+
+- url: .*
+  script: main.py
