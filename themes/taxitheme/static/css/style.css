@@ -395,7 +395,7 @@ hr {
 }
 
 .team .button {
-  width:200px;
+  width:90%;
 }
 
 .button {
@@ -869,7 +869,6 @@ hr.press {
         font-size: 25px;
     }
 
-
 }
 @media (max-width:768px) {
 	
@@ -880,7 +879,14 @@ hr.press {
 	.boxed-grey {
 		margin-bottom: 30px;
 	}
-
+    .team .button span {
+        display: none;
+    }
+    .team .button {
+        padding-right: 12px;
+        padding-left: 12px;
+        width:100%;
+  }
 	
 }
 
