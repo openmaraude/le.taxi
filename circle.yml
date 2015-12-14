@@ -13,4 +13,4 @@ deployment:
       appengine:
             branch: master
             commands:
-                  - echo $APPENGINE_PASSWORD | $HOME/google_appengine/appcfg.py update --email=$APPENGINE_EMAIL --noauth_local_webserver ./output
+                - $HOME/google_appengine/appcfg.py update --oauth2_refresh_token=$APPENGINE_REFRESHTOKEN ./output
