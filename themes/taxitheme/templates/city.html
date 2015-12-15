@@ -12,6 +12,14 @@ background-color: rgba(255,255,255,0.5);
 .intro .slogan h4 {
 color: #f00;
 }
+.cta-button {
+color:#000;
+background-color: rgba(255,255,255,0.5);
+text-align:center;
+font-weight: bold;
+align:center;
+padding:20px;
+}
 {% endblock %}
 {% block ghostlogo %}
                 <a class="navbar-brand ghost-logo" href="index.html#intro">
@@ -32,6 +40,18 @@ color: #f00;
                 <i class="fa fa-angle-double-down animated"></i>
             </a>
         </div>
+             <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 pull-right">
+                        <div class="cta-button">
+                           Vous avez testé Le.Taxi ?
+                          <a href="#feedback" class="button">
+                          <span><i class="fa fa-chevron-circle-right"></i></span>Donnez votre avis</a>
+                        </div>
+                    </div>
+                </div>  
+                </div>  
+
     </section>
     <!-- /Section: intro -->
 
@@ -332,7 +352,7 @@ color: #f00;
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
      {% import 'translations.html' as translations with context %}
      {{ translations.translations_for(page) }}
      {{ page.content }}
