@@ -362,7 +362,7 @@ hr {
 .intro .slogan h4 {
 	color: #fff;
     font-size: 25px;
-    line-height: 60px;
+    line-height: 40px;
     border-style: none;
 	text-shadow: -1px 1px 1px #000;
 }
@@ -462,6 +462,9 @@ filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ff12385
   background: #2F2F2F;
 }
 
+.button.red {
+   background: #FF0F0F;
+}
 
 
 .avatar {
@@ -616,7 +619,6 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 footer {
 	text-align: center;
 	padding: 50px 0 ;
-	
 }
 
 footer p {
