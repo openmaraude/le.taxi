@@ -40,17 +40,15 @@
         {% if FEED_ALL_RSS %}
         <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
         {% endif %}
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
         <!--[if IE]>
             <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-    <style type="text/css">
-
+      <style type="text/css">
       @import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
       {% block  customcss %}
       {% endblock %}
-          </style>
+      </style>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
