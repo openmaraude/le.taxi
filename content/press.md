@@ -18,7 +18,7 @@ _article de_ Karim Maoudj _dans le_ Midi Libre _du 9 décembre 2015_
 
 <img src="/images/presse/ouest-france.png" class="plogo" alt="Ouest France" >
 ** Le client peut choisir son taxi, partout en France, 24 heures sur 24 **  
-« _Cela va faciliter la distribution des courses,_ remarque Christophe Jan, le président du groupement des radio-taxis rennais. _Actuellement, en appelant notre standard, une demande est traitée entre deux et quatre minutes. Mais quand il y a beaucoup d'appels, le client peut attendre jusqu'à vingt minutes s'il est en bout de chaine._ aVEC lE.Taxi, ce sera beaucoup plus rapide. »  
+« _Cela va faciliter la distribution des courses,_ remarque Christophe Jan, le président du groupement des radio-taxis rennais. _Actuellement, en appelant notre standard, une demande est traitée entre deux et quatre minutes. Mais quand il y a beaucoup d'appels, le client peut attendre jusqu'à vingt minutes s'il est en bout de chaine._ Avec Le.Taxi, ce sera beaucoup plus rapide. »  
 _article de_ Olivier Berrezai _dans_ Ouest France _du 9 novembre 2015_
 <!-- http://le.taxi/press/article_Le.Taxi_Ouest-France_2015-11-09.png -->
 <hr class="press">
