@@ -1,6 +1,14 @@
 Title: La presse en parle
 Description: La presse et les médias parlent de la plateforme Le.Taxi
 
+<img src="/images/presse/tf1.png"  class="plogo" alt="TF1">
+** Taxis : un nouveau service de réservation en un clic **  
+« A Montpellier, plus de 130 taxis et 800 usagers utilisent déjà le plate-forme nationale »  
+_sujet de_ Aurélie Erhel, Frédéric Bernheim _et_ Noémie Clerc _dans le JT de 13h de_ Anne-Claire Coudray _sur_ TF1 _le 19 décembre 2015_
+<!-- http://www.dailymotion.com/video/x3iqwmq_2015-12-19-le-taxi-a-montpellier-sur-tf1_news -->
+<!-- http://lci.tf1.fr/jt-we/videos/2015/taxis-un-nouveau-service-de-reservation-en-un-clic-8697595.html -->
+<hr class="press">
+
 <img src="/images/presse/la_marseillaise.png"  class="plogo" alt="La Marseillaise">
 ** Héler un taxi, en un simple clic **  
 « "Le.Taxi" s'adresse aussi bien aux chauffeurs qu'aux usagers. Les premiers peuvent y adhérer via un intermédiaire (qu'il s'agisse d'un opérateur de taxi ou d'un central radio). Les seconds en téléchargeant une application sur leur smartphone, ont accès à une carte qui recense tous les taxis disponibles autour d'eux. »  
