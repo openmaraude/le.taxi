@@ -4,17 +4,17 @@ Description: La presse et les médias parlent de la plateforme Le.Taxi
 <img src="/images/presse/TF1.png"  class="plogo" alt="TF1">
 ** Taxis : un nouveau service de réservation en un clic **  
 « A Montpellier, plus de 130 taxis et 800 usagers utilisent déjà le plate-forme nationale »  
-_sujet de_ Aurélie Erhel, Frédéric Bernheim _et_ Noémie Clerc _dans le JT de 13h de_ Anne-Claire Coudray _sur_ TF1 _le 19 décembre 2015_
+_sujet de_ Aurélie Erhel, Frédéric Bernheim _et_ Noémie Clerc _dans le JT de 13h de_ Anne-Claire Coudray _sur_ TF1 _le 19 décembre 2015_<br>
 <!-- http://www.dailymotion.com/video/x3iqwmq_2015-12-19-le-taxi-a-montpellier-sur-tf1_news -->
-<!-- http://lci.tf1.fr/jt-we/videos/2015/taxis-un-nouveau-service-de-reservation-en-un-clic-8697595.html -->
+<a href="http://lci.tf1.fr/jt-we/videos/2015/taxis-un-nouveau-service-de-reservation-en-un-clic-8697595.html">Voir la vidéo</a>
 <hr class="press">
 
 <img src="/images/presse/la_marseillaise.png"  class="plogo" alt="La Marseillaise">
 ** Héler un taxi, en un simple clic **  
 « "Le.Taxi" s'adresse aussi bien aux chauffeurs qu'aux usagers. Les premiers peuvent y adhérer via un intermédiaire (qu'il s'agisse d'un opérateur de taxi ou d'un central radio). Les seconds en téléchargeant une application sur leur smartphone, ont accès à une carte qui recense tous les taxis disponibles autour d'eux. »  
-_article de_ Marine Desseigne _dans_ La Marseillaise _du 16 décembre 2015_
-<!-- http://le.taxi/press/article_Le.Taxi_laMarseillaise.png -->
-<!-- http://www.lamarseillaise.fr/herault/societe/44582-montpellier-heler-un-taxi-en-un-simple-clic -->
+_article de_ Marine Desseigne _dans_ La Marseillaise _du 16 décembre 2015_<br>
+<!-- http://le.taxi/press/article_Le.Taxi_laMarseillaise.png">Lire l'article -->
+<a href="http://www.lamarseillaise.fr/herault/societe/44582-montpellier-heler-un-taxi-en-un-simple-clic">Lire l'article</a>
 <hr class="press">
 
 <img src="/images/presse/midi-libre.png" class="plogo" alt="Midi Libre" >
