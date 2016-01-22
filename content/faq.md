@@ -36,9 +36,14 @@ C’est très simple, il suffit de vous rapprocher d'un opérateur Taxi agréé 
 
 ** Dois-je acheter un nouveau téléphone mobile&#160;? **
 
-Si votre opérateur vous fournit une application sur smartphone Android ou Apple. L'utilisation de smartphones récents (4G) renforcera la qualité de votre géolocalisation, notamment lorsque que vous êtes en communication.
+Non a priori. Si votre terminal embarqué le supporte, c'est lui qui vous connectera au registre. Si vous optez pour une application smartphone, les fournisseurs vous proposent des applications sous Android ou iPhone. L'utilisation de smartphones récents (4G) renforcera la qualité de votre géolocalisation, notamment lorsque que vous êtes en communication.
 
 ** Disposer d’informations aussi précises ne pose-t-il pas des problèmes de respect de la vie privée&#160;? **
 
-Non, le registre de disponibilité des taxis veille au respect de la vie privée.
+Non, le registre de disponibilité des taxis veille au respect de la vie privée. Il n'est accessible qu'aux opérateurs et aux moteurs de recherche dûment agréés.
+
+** Ai-je intérêt à installer plusieurs applications&#160;? **
+
+En vertu de l'interdiction des clauses d'exclusivité sur ses outils, un chauffeur peut décider de se connecter au registre au travers de plusieurs offres. Par exemple celle de son central radio sur son terminal et celle d'une application smartphone. En revanche ces deux canaux n'amèneront pas deux fois plus de courses ! Le chauffeur - c'est à dire son véhicule, son ADS et sa carte professionnelle - ne sera visible qu'une et une seule fois par les clients : tous les moteurs de recherche montrent tous les taxis, il est donc totalement inutile de s'inscrire dans plusieurs applications.
+
 
