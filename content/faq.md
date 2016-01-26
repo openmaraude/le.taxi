@@ -13,6 +13,8 @@ Grâce à la réunion des taxis au sein d'une plateforme unique, les éditeurs d
 
 Ils peuvent désormais effectuer une commande immédiate d'un taxi à partir de leur smartphone, depuis une des nombreuses applications agréées, qu'il s'agisse d'un moteur de recherche ou d'une application d"une compagnie de taxi. Avec la même application d'une compagnie de taxi, il pourra trouver un taxi _partout en France_.
 
+* Plus spécifiquement pour les chauffeurs *
+
 ** Un VTC peut-il s'inscrire dans le registre&#160;? **
 
 Non, le registre n'est ouvert qu'aux taxis titulaires d'une Autorisation de Stationnement, en vertu de la règlementation sur la maraude, renouvelée dans la <a rel="nofollow" href="http://legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000029527162&amp;categorieLien=id">loi du 2 octobre 2014</a>. Le registre n'est pas ouvert non plus aux deux roues.
@@ -44,6 +46,6 @@ Non, le registre de disponibilité des taxis veille au respect de la vie privée
 
 ** Ai-je intérêt à installer plusieurs applications&#160;? **
 
-En vertu de l'interdiction des clauses d'exclusivité sur ses outils, un chauffeur peut décider de se connecter au registre au travers de plusieurs offres. Par exemple celle de son central radio sur son terminal et celle d'une application smartphone. En revanche ces deux canaux n'amèneront pas deux fois plus de courses ! Le chauffeur - c'est à dire son véhicule, son ADS et sa carte professionnelle - ne sera visible qu'une et une seule fois par les clients : tous les moteurs de recherche montrent tous les taxis, il est donc totalement inutile de s'inscrire dans plusieurs applications.
+En vertu de l'interdiction des clauses d'exclusivité sur ses outils, un chauffeur peut décider de se connecter au registre au travers de plusieurs offres. Par exemple celle de son central radio sur son terminal et celle d'une application smartphone. En revanche ces deux canaux n'amèneront pas deux fois plus de courses ! Le chauffeur - c'est à dire son véhicule, son ADS et sa carte professionnelle - ne sera visible qu'une et une seule fois par les clients : tous les moteurs de recherche peuvent montrer tous les taxis, il est donc totalement inutile de s'inscrire dans plusieurs applications.
 
 
