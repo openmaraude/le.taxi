@@ -7,11 +7,11 @@ Non. C’est une plateforme qui fédère les applications des taxis et des centr
 
 ** Pour un chauffeur, quel est l'intérêt de s'inscrire dans le registre de géolocalisation des taxis&#160;? **
 
-Grâce à la réunion des taxis au sein d'une plateforme unique, les éditeurs d'applications mobiles peuvent désormais offrir un bouton "Le.Taxi" qui permet de héler électroniquement _tous_ les taxis connectés, partout en France. Ces nouveaux usages sur mobile vont naturellement augmenter le volume de courses reçues, et en particulier celles provenant d'usagers n'ayant pas installé d'application taxi. Le.Taxi permet donc à la profession de se hisser au même niveau que les acteurs majeurs du VTC. Aujourd’hui Google Maps ne permet de contacter qu’un... véhicule Uber.
+Grâce à la réunion des taxis au sein d'une plateforme unique, les éditeurs d'applications mobiles peuvent désormais offrir un bouton "Le.Taxi" qui permet de visualiser et de héler électroniquement _tous_ les taxis connectés, partout en France. Ces nouveaux usages sur mobile vont naturellement augmenter le volume de courses reçues, et en particulier celles provenant d'usagers n'ayant pas installé d'application taxi. Le.Taxi permet donc à la profession de se hisser au même niveau que les acteurs majeurs du VTC et du numérique.
 
 ** Quel est le bénéfice pour les usagers&#160;? **
 
-Ils peuvent désormais effectuer une commande immédiate d'un taxi à partir de leur smartphone, depuis une des nombreuses applications agréées, qu'il s'agisse d'un moteur de recherche ou d'une application d"une compagnie de taxi. Avec la même application d'une compagnie de taxi, il pourra trouver un taxi _partout en France_.
+Ils peuvent désormais effectuer une commande immédiate d'un taxi à partir de leur smartphone, depuis une des nombreuses applications agréées, qu'il s'agisse d'un moteur de recherche, d'une application de mobilité ou d'une application d"une compagnie de taxi. Avec la même application, ils peuvent trouver un taxi _partout en France_.
 
 ** Un VTC peut-il s'inscrire dans le registre&#160;? **
 
