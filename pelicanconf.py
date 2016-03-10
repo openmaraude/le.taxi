@@ -24,7 +24,7 @@ THEME = 'themes/taxitheme';
 PLUGIN_PATHS = [THEME + "/plugins"]
 PLUGINS = ['assets',]
 
-STATIC_PATHS = ['images', 'extra']
+STATIC_PATHS = ['images', 'extra', 'files']
 
 EXTRA_PATH_METADATA = {
   'extra/main.py': {'path': 'main.py'},
