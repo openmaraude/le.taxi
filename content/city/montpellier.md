@@ -4,7 +4,7 @@ Template: city
 CityName: Montpellier
 CityPhoto: images/city/Montpellier.jpg
 
-Montpellier est la première ville en France à expérimenter Le.Taxi.
+Montpellier a été la première ville en France à expérimenter Le.Taxi.
 
 Vous avez commandé un taxi avec l'une des applications agréées ?
 
