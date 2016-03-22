@@ -1,6 +1,13 @@
 Title: La presse en parle
 Description: La presse et les médias parlent de la plateforme Le.Taxi
 
+<img src="/images/presse/liberation.png" class="plogo" alt="Libération">
+** Combien d'étoiles pour votre taxi ? **   
+« Plus étonnant : ce sont les services publics qui ont mis en place ce système opérationnel dès mardi à Montpellier. »  
+_article de_ Richard Poirot _dans_ Libération _du 22 mars 2016_
+<!-- http://www.liberation.fr/futurs/2016/03/21/des-reclamations-contre-votre-taxi-notez-le-chauffeur_1441043 -->
+<hr class="press">
+
 <img src="/images/presse/TF1.png"  class="plogo" alt="TF1">
 ** Taxis : un nouveau service de réservation en un clic **  
 « A Montpellier, plus de 130 taxis et 800 usagers utilisent déjà le plate-forme nationale »  
