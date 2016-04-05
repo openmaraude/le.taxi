@@ -18,8 +18,7 @@ Pendant cette période, les chauffeurs sont invités à vérifier :
 * le bon fonctionnement de leur outil (toujours télécharger la dernière version de leur application) et leur vigilance quant à la réactivité attendue par les clients pour confirmer les prises en charge en moins de 15 secondes,
 * leur adhésion au principe de course d'approche gratuite, c'est à dire la différence de geste requise entre une course le.taxi et une autre réservation : <b>rester au vert jusqu'à l'arrivée sur zone</b>.
 
-
-
+<br/>
 ###### Vous êtes un groupement, une compagnie ou un central radio
 Rapprochez-vous d'un <a href="/index.html#who_taxi">équipementier proposant une solution compatible</a>.
 
