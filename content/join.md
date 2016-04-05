@@ -19,6 +19,7 @@ Pendant cette période, les chauffeurs sont invités à vérifier :
 * leur adhésion au principe de course d'approche gratuite, c'est à dire la différence de geste requise entre une course le.taxi et une autre réservation : <b>rester au vert jusqu'à l'arrivée sur zone</b>.
 
 
+
 ###### Vous êtes un groupement, une compagnie ou un central radio
 Rapprochez-vous d'un <a href="/index.html#who_taxi">équipementier proposant une solution compatible</a>.
 
