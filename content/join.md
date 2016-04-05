@@ -22,7 +22,7 @@ Pendant cette période, les chauffeurs sont invités à vérifier :
 ###### Vous êtes un groupement, une compagnie ou un central radio
 Rapprochez-vous d'un <a href="/index.html#who_taxi">équipementier proposant une solution compatible</a>.
 
-
+<br/>
 ###### Vous êtes un éditeur d'applications
 Pour adhérer à la plateforme en tant qu'éditeur d'application, que ce soit en tant qu'opérateur de taxis (pour les chauffeurs) ou de moteur de recherche de taxis (pour les clients), commencez par prendre connaissance :
 
