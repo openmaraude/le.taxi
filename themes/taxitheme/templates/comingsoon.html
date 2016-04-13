@@ -1,0 +1,213 @@
+{% extends "base-comingsoon.html" %}
+{% block title %}{{ SITENAME }} : {{ page.title }}{% endblock %}
+{% block description %}{{ page.description }}{% endblock %}
+{% block customcss %}
+.intro {
+background: url(../../../{{ page.cityphoto }}) no-repeat top center;
+}
+.intro .slogan {
+padding-top: 2em;
+background-color: rgba(255,255,255,0.5);
+}
+.intro .slogan h4 {
+color: #f00;
+}
+.cta-button {
+color:#000;
+background-color: rgba(255,255,255,0.5);
+text-align:center;
+font-weight: bold;
+align:center;
+padding:20px;
+}
+.global-overlay {
+position: fixed;
+top: 0;
+left: -100vw;
+height: 100%;
+overflow: visible;
+width: 100%;
+z-index: 1029;
+}
+
+.overlay {
+position: fixed;
+overflow: hidden;
+top: 0;
+left: -50%;
+background: rgba(32, 35, 45, 0.9);
+width: 100%;
+height: 100%;
+-webkit-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+-moz-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+-ms-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+-o-transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+  transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
+border-right: 1px solid #15171e;
+}
+.overlay.skew-part {
+-webkit-transform: skew(-25deg, 0deg);
+-moz-transform: skew(-25deg, 0deg);
+-ms-transform: skew(-25deg, 0deg);
+-o-transform: skew(-25deg, 0deg);
+transform: skew(-25deg, 0deg);
+}
+
+#left-side {
+position: fixed;
+left: 0;
+top: 0;
+width: 50%;
+height: 100%;
+-webkit-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+-moz-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+-ms-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+-o-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+z-index:1030;
+}
+
+#left-side .content {
+position: absolute;
+z-index: 0;
+left: 0;
+padding: 0;
+top: 50vh;
+width: 100%;
+padding: 0 10%;
+-webkit-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+-moz-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+-ms-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+-o-transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+transition: all 0.3s cubic-bezier(0, 0, 0.58, 1);
+-webkit-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+transform: translateY(-50%);
+text-align: left;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+opacity: 1;
+visibility: visible;
+z-index:1030;}
+h1.text-intro {
+color:white;
+}
+h2.text-intro {
+color:white;
+text-transform:none;
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 768px) {
+.overlay {
+left: 0;
+width: 100%;
+height: 100%; }
+.overlay.skew-part {
+-webkit-transform: skew(0deg, 0deg);
+-moz-transform: skew(0deg, 0deg);
+-ms-transform: skew(0deg, 0deg);
+-o-transform: skew(0deg, 0deg);
+transform: skew(0deg, 0deg); }
+
+#left-side {
+width: 100%; }
+#left-side .content {
+text-align: center; }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+#left-side {
+width: 100%;
+height: auto;
+padding: 50px 0 150px; }
+#left-side .content {
+position: relative;
+left: 50%;
+-webkit-transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
+-o-transform: translateX(-50%);
+transform: translateX(-50%);
+top: auto;
+text-align: center; }
+h1.text-intro {
+font-size: 30px; }
+h2.text-intro {
+font-size: 18px; }
+}
+
+
+
+{% endblock %}
+{% block ghostlogo %}
+                <a class="navbar-brand ghost-logo" href="index.html#intro">
+                     <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo_le.taxi.svg">
+                 </a>
+{% endblock %}
+{% block content %}
+    <a name="pcontent"></a>
+
+    <!-- Section: intro -->
+    <section id="intro" class="intro">
+        <div class="slogan">
+            <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo_le.taxi.svg">
+            <h4>à {{ page.cityname }}</h4>
+        </div>
+        <div class="page-scroll">
+            <a href="#how" class="btn btn-circle">
+                <i class="fa fa-angle-double-down animated"></i>
+            </a>
+        </div>
+             <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 pull-right">
+                        <div class="cta-button">
+                           Vous avez testé Le.Taxi ?
+                          <a href="#feedback" class="button">
+                          <span><i class="fa fa-chevron-circle-right"></i></span>Donnez votre avis</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+    </section>
+    <!-- /Section: intro -->
+
+    <!-- Section Feedback -->
+        <section id="feedback" class="home-section">
+            <div class="heading-about text-center">
+                <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="wow bounceInDown" data-wow-delay="0.4s">
+                        <div class="section-heading">
+                        <h2>Votre avis</h2>
+                        <i class="fa fa-2x fa-angle-down"></i>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="container">
+  
+            <div class="row">
+                <div class="col-lg-2 col-lg-offset-5">
+                    <hr class="marginbot-50">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+     {% import 'translations.html' as translations with context %}
+     {{ translations.translations_for(page) }}
+     {{ page.content }}
+              </div>
+            </div>
+            </div>
+        </section>
+     <!-- /Section Feedback -->
+
+{% endblock %}
