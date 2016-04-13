@@ -20,7 +20,7 @@ Pendant cette période, les chauffeurs sont invités à vérifier :
 
 <br/>
 ###### Vous êtes un groupement, une compagnie ou un central radio
-Nou vous invitons à vous rapprochez-vous d'un <a href="/index.html#who_taxi">équipementier proposant une solution compatible</a>. Il vous appartient de déployer ou faire déployer la solution de votre choix (équipement embarqué ou application mobile) dans les véhicules.
+Nous vous invitons à vous rapprocher d'un <a href="/index.html#who_taxi">équipementier proposant une solution compatible</a>. Il vous appartient de déployer ou faire déployer la solution de votre choix (équipement embarqué ou application mobile) dans les véhicules.
 
 Pour adhérer à la plateforme en tant qu'opérateur de taxis, il suffit ensuite de prendre connaissance :
 
