@@ -1,6 +1,6 @@
 Title: Marseille
 Description: Plate-forme nationale de mise en relation client / taxi
-Template: comingsoon
+Template: city-marseille
 CityName: Marseille
 CityPhoto: images/city/marseille.jpg
 
