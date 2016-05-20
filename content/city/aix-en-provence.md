@@ -1,6 +1,6 @@
 Title: Aix-en-Provence
 Description: Plate-forme nationale de mise en relation client / taxi
-Template: comingsoon
+Template: city-aix
 CityName: Aix-en-Provence
 CityPhoto: images/city/aix.jpg
 
