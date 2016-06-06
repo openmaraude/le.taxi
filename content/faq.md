@@ -25,7 +25,7 @@ La position du taxi et son statut libre/occupé est transmise toutes les 5 secon
 
 Dès que le chauffeur le décide, en activant le système. Dès lors, s’il est disponible et dans sa zone d’autorisation, les caractéristiques de son véhicule (nombre de places, services à bord, ..) et un identifiant pour le contacter seront visibles aux clients recherchant un taxi à proximité de sa position dans les applications des éditeurs agréés.
 
-** Peut-on facturer une course d'approche à un client en maraude électronique Le.Taxi ?
+** Peut-on facturer une course d'approche à un client en maraude électronique Le.Taxi&#160;? **
 
 Non. La loi est claire et précise, les mêmes contraintes que la maraude physique s'imposent à la maraude électronique, et notamment celle d'une prise en charge sans course d'approche. Concrètement cela signifie qu'une fois la course acceptée par le chauffeur, celui-ci va "rester au vert" pour ne pas déclencher son compteur, mais ne prendra pas en charge d'éventuels clients levant la main sur la courte distance qui le sépare de l'usager Le.Taxi. Plus le nombre de chauffeurs est important, plus ce risque est faible. 
 Une fois sur place, si le client ne se présente pas immédiatement, un délai d'attente pourra lui être facturé. En cas de non-charge, le chauffeur peut signaler le client indélicat.
