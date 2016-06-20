@@ -2,7 +2,7 @@ Title: Un clic, un taxi
 Description: Le.Taxi : Plate-forme nationale de mise en relation client / taxi
 Template: home
 clients: nom, type, logo, playstoreid, appstoreid, web, available
-     tedyCab, , images/team/tedycab.png, com.trandev.tedycab, id1084982482, , yes
+     tedyCab, , images/team/tedycab.png, com.transdev.tedycab, id1084982482, , yes
      Zaléou, , images/team/zaleou.png, biz.ixxi.opendatataxi, id1055739408, , yes
      Mon Appli Taxi, , images/team/montaxi.png, com.taxibleuservices.mytaxi, id953924194, , yes
      Taxiloc, , images/team/taxiloc.png, , id511899249, , no

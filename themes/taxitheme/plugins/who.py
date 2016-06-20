@@ -1,12 +1,13 @@
 """
-Members info plugin for Pelican
+Who plugin for Pelican
 ===============================
-This plugin looks for a ``members`` metadata header containing key/value pairs
+This plugin looks for ``clients`` and ``drivers`` metadata header containing key/value pairs
 and makes them available for use in templates
-The first line of the members metadata defines each key, and the following
+The first line of the ``clients`` and ``drivers`` metadata defines each key, and the following
 lines contain corresponding values for each member.
-:members: nom, email, twitter, github, site_nome, site_href
-    Danilo Shiga, daniloshiga@gmail.com, @daneoshiga, daneoshiga, Danilo Shiga, http://daniloshiga.com
+
+clients: nom, type, logo, playstoreid, appstoreid, web, available
+     tedyCab, Moteur de recherche, images/team/tedycab.png, com.transdev.tedycab, id1084982482, http://www.tedycab.com/, yes
 """
 
 from collections import OrderedDict
