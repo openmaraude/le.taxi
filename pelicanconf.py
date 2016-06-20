@@ -22,7 +22,7 @@ DISPLAY_CATEGORIES_ON_MENU = True
 
 THEME = 'themes/taxitheme';
 PLUGIN_PATHS = [THEME + "/plugins"]
-PLUGINS = ['assets',]
+PLUGINS = ['assets','who']
 
 STATIC_PATHS = ['images', 'extra', 'files']
 

@@ -90,10 +90,6 @@
                     </div>
                 </div>
 
-
-
-
-
          </div>
       </div>
     </section>
@@ -152,6 +148,7 @@
                    </div>
                </div>
 
+               <div class="clearfix visible-xs-block"></div>
 
                <div class="col-xs-6 col-sm-3 col-md-3">
                     <div class="wow bounceInUp" data-wow-delay="0.4s">
@@ -367,78 +364,47 @@
         <div class="row">
 
 
-
-	    
+ {% for nm, item in page.clients|dictsort(false, by='key') %}
            <div class="col-xs-6 col-sm-3 col-md-3">
-                 <div class="wow bounceInUp" data-wow-delay="0.6s">
-                 <div class="team boxed-grey">
-                     <div class="inner">
-                         <h5>TedyCab</h5>
-                         <div class="avatar"><img src="{{ SITEURL }}/images/team/tedycab.png" alt="" class="img-responsive img-circle" /></div>
-                     </div>
-                      <a href="https://play.google.com/store/apps/details?id=com.transdev.tedycab"><img alt="Get it on Google Play" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
-                      <a href="https://itunes.apple.com/fr/app/tedycab-votre-taxi-en-un-clic/id1084982482?mt=8"><img alt="Download on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a>
-                 </div>
-                 </div>
-           </div>
-
-	   
-           <div class="col-xs-6 col-sm-3 col-md-3">
-                 <div class="wow bounceInUp" data-wow-delay="0.6s">
-                 <div class="team boxed-grey">
-                     <div class="inner">
-                         <h5>Zaléou</h5>
-                         <div class="avatar"><img src="{{ SITEURL }}/images/team/zaleou.png" alt="" class="img-responsive img-circle" /></div>
-                     </div>
-                      <a href="https://play.google.com/store/apps/details?id=biz.ixxi.opendatataxi"><img alt="Get it on Google Play" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
-                      <a href="https://itunes.apple.com/fr/app/zaleou/id1055739408?mt=8"><img alt="Download on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a>
-                 </div>
-                 </div>
-            </div>
-
-
-            <div class="col-xs-6 col-sm-3 col-md-3">
-                 <div class="wow bounceInUp" data-wow-delay="0.6s">
-                 <div class="team boxed-grey">
-                     <div class="inner">
-                         <h5>Mon Appli Taxi</h5>
-                         <div class="avatar"><img src="{{ SITEURL }}/images/team/montaxi.png" alt="" class="img-responsive img-circle" /></div>
-                         <!-- a href="http://play.google.com/store/apps/details?id=com.taxibleuservices.mytaxi"><img alt="Get it on Google Play" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
-                         <a href="https://itunes.apple.com/fr/app/montaxi/id953924194?mt=8"><img alt="Download on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a -->
-			 <p class="subtitle">bientôt disponible</p>
-                     </div>
-                 </div>
-                 </div>
+                 <div class="wow bounceInUp" data-wow-delay="0.{{ loop.index0 % 4 }}s">
+                   <div class="team boxed-grey">
+                       <div class="inner">
+                           <h5>{{item.nom|e}}</h5>
+    {% if item.type != "" %}
+                           <p class="subtitle">{{item.type|e}}</p>
+    {% endif %}
+                           <div class="avatar"><img src="{{ SITEURL }}/{{item.logo|e}}" alt="" class="img-responsive img-circle" /></div>
+                       </div>
+   {% if item.playstoreid != "" and item.available == "yes" %}
+                       <a href="https://play.google.com/store/apps/details?id={{item.playstoreid|e}}"><img alt="Get it on GooglePlay" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
+   {% endif %}
+   {% if item.appstoreid != "" and item.available == "yes" %}
+                       <a href="https://itunes.apple.com/fr/app/{{item.appstoreid|e}}?mt=8"><img alt="Download on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a>
+   {% endif %}
+   {% if item.web != "" and item.available == "yes" %}
+                        <a href="{{ item.web }}" class="button grey">
+                           <span><i class="fa fa-chevron-circle-right"></i></span>web</a>
+   {% endif %}
+   {% if (item.playstoreid == "" and item.appstoreid == "" and item.web == "") or item.available != "yes" %}
+                       <p class="subtitle">Bientôt disponible</p>
+   {% endif %}
+                   </div>
+                   </div>
              </div>
-
-	    
-            <div class="col-xs-6 col-sm-3 col-md-3">
-                <div class="wow bounceInUp" data-wow-delay="0.2s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-                        <h5>TaxiProxi</h5>
-                        <div class="avatar"><img src="{{ SITEURL }}/images/team/taxiproxi.png" alt="" class="img-responsive img-circle" /></div>
-                        <!-- a href="http://play.google.com/store/apps/details?id=com.desclick.taxiproxi"><img alt="Get it on Google Play" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
-                        <a href="https://itunes.apple.com/fr/app/taxi-proxi/id510336055?mt=8"><img alt="Download on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a -->
-			 <p class="subtitle">bientôt disponible</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-
-	    
-            <!-- div class="col-xs-6 col-sm-3 col-md-3">
-                 <div class="wow bounceInUp" data-wow-delay="0.2s">
-                 <div class="team boxed-grey">
-                     <div class="inner">
-                         <h5>...et d'autres</h5>
-                         <p class="subtitle">bientôt disponibles</p>
-                         <div class="avatar"><img src="{{ SITEURL }}/images/team/anon.png"  alt="" class="img-responsive img-circle" /></div>
-                     </div>
-                 </div>
-                 </div>
-             </div -->
-
+   {% if loop.index is divisibleby 4 %}
+         </div>
+         <div class="row">
+              <div class="col-lg-2 col-lg-offset-5">
+                  <hr class="marginbot-50">
+              </div>
+         </div>
+         <div class="row">
+   {% else %}
+     {% if loop.index is divisibleby 2 %}
+           <div class="clearfix visible-xs-block"></div>
+     {% endif %}
+   {% endif %}
+ {% endfor %}
 
          </div>
       </div>
@@ -469,295 +435,47 @@
         </div>
         <div class="row">
 
-              <div class="col-xs-6 col-sm-3 col-md-3">
-                  <div class="wow bounceInUp" data-wow-delay="0.4s">
-                  <div class="team boxed-grey">
-                      <div class="inner">
-                          <h5>Allo Taxi Roubaix Tourcoing</h5>
-                          <p class="subtitle">Opérateur</p>
-                          <div class="avatar"><img src="{{ SITEURL }}/images/team/allotaxiroubaix.png" alt="" class="img-responsive img-circle" /></div>
-			 <p class="subtitle">bientôt disponible</p>
-                      </div>
-                  </div>
-                  </div>
-              </div>
-
-
-              <div class="col-xs-6 col-sm-3 col-md-3">
-                   <div class="wow bounceInUp" data-wow-delay="0.4s">
-                   <div class="team boxed-grey">
-                       <div class="inner">
-                           <h5>Alpha Taxis</h5>
-                           <p class="subtitle">Opérateur</p>
-                           <div class="avatar"><img src="{{ SITEURL }}/images/team/alphataxis.png" alt="" class="img-responsive img-circle" /></div>
-                       </div>
-                   </div>
-                   </div>
-               </div>
-
-
-
+  {% for nm, item in page.drivers|dictsort(false, by='key') %}
             <div class="col-xs-6 col-sm-3 col-md-3">
-                 <div class="wow bounceInUp" data-wow-delay="0.4s">
-                 <div class="team boxed-grey">
-                     <div class="inner">
-                         <h5>Atlantis Taxis</h5>
-                         <p class="subtitle">Opérateur</p>
-                         <div class="avatar"><img src="{{ SITEURL }}/images/team/atlantis.png" alt="" class="img-responsive img-circle" /></div>
-			 <p class="subtitle">bientôt disponible</p>
-                     </div>
-                 </div>
-                 </div>
-             </div>
-
-             <div class="col-xs-6 col-sm-3 col-md-3">
-                 <div class="wow bounceInUp" data-wow-delay="0.2s">
-                 <div class="team boxed-grey">
-                     <div class="inner">
-                         <h5>Axygest</h5>
-                         <p class="subtitle">Equipementier</p>
-                         <div class="avatar"><img src="{{ SITEURL }}/images/team/axygest.png" alt="" class="img-responsive img-circle" /></div>
-                     </div>
-                 </div>
-                 </div>
-             </div>
-
-        </div>
-          <div class="row">
-                <div class="col-lg-2 col-lg-offset-5">
-                    <hr class="marginbot-50">
-                </div>
-            </div>
-           <div class="row">
-
-             <div class="col-xs-6 col-sm-3 col-md-3">
-                    <div class="wow bounceInUp" data-wow-delay="0.4s">
+                  <div class="wow bounceInUp" data-wow-delay="0.{{ loop.index0 % 4 }}s">
                     <div class="team boxed-grey">
                         <div class="inner">
-                            <h5>FNAT Driver</h5>
-                            <p class="subtitle">Opérateur</p>
-                            <div class="avatar"><img src="{{ SITEURL }}/images/team/fnat.png" alt="" class="img-responsive  img-circle" /></div>
-            <a href="https://play.google.com/store/apps/details?id=com.deveryware.tram.taxiloc.driver.fnat"><img alt="Get it on Google Play" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
-             <a href="https://itunes.apple.com/fr/app/fnat-driver/id1115197992?mt=8"><img alt="Download on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a>
+                            <h5>{{item.nom|e}}</h5>
+    {% if item.type != "" %}
+                            <p class="subtitle">{{item.type|e}}</p>
+    {% endif %}
+                            <div class="avatar"><img src="{{ SITEURL }}/{{item.logo|e}}" alt="" class="img-responsive img-circle" /></div>
                         </div>
+    {% if item.playstoreid != "" and item.available == "yes" %}
+                        <a href="https://play.google.com/store/apps/details?id={{item.playstoreid|e}}"><img alt="Get it on GooglePlay"   src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
+    {% endif %}
+    {% if item.appstoreid != "" and item.available == "yes" %}
+                        <a href="https://itunes.apple.com/fr/app/{{item.appstoreid|e}}?mt=8"><img alt="Download on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a>
+    {% endif %}
+    {% if item.web != "" and item.available == "yes" %}
+                         <a href="{{ item.web }}" class="button grey">
+                           <span><i class="fa fa-chevron-circle-right"></i></span>web</a>
+    {% endif %}
+    {% if (item.playstoreid == "" and item.appstoreid == "" and item.web == "") or item.available != "yes" %}
+                        <p class="subtitle">Bientôt compatible</p>
+    {% endif %}
                     </div>
                     </div>
-                </div>
-
-
-             <div class="col-xs-6 col-sm-3 col-md-3">
-                   <div class="wow bounceInUp" data-wow-delay="0.4s">
-                   <div class="team boxed-grey">
-                       <div class="inner">
-                           <h5>Les Taxis Marseillais</h5>
-                           <p class="subtitle">Opérateur</p>
-                           <div class="avatar"><img src="{{ SITEURL }}/images/team/taxis-marseillais.png" alt="" class="img-responsive img-circle" /></div>
-                       </div>
-                   </div>
-                   </div>
+              </div>
+    {% if loop.index is divisibleby 4 %}
+          </div>
+          <div class="row">
+               <div class="col-lg-2 col-lg-offset-5">
+                   <hr class="marginbot-50">
                </div>
-
-
-            <div class="col-xs-6 col-sm-3 col-md-3">
-                <div class="wow bounceInUp" data-wow-delay="0.8s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-                        <h5>Mob1Taxi</h5>
-                        <p class="subtitle">Opérateur</p>
-                        <div class="avatar"><img src="{{ SITEURL }}/images/team/mob1taxi.png" alt="" class="img-responsive img-circle" /></div>
-			 <a href="https://play.google.com/store/apps/details?id=net.mobitaxi"><img alt="Get it on Google Play" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
-                    </div>
-                </div>
-                </div>
-            </div>
-
-             <div class="col-xs-6 col-sm-3 col-md-3">
-                 <div class="wow bounceInUp" data-wow-delay="0.6s">
-                 <div class="team boxed-grey">
-                     <div class="inner">
-                         <h5>Mon Appli Taxi</h5>
-                         <p class="subtitle">Equipementier</p>
-                         <div class="avatar"><img src="{{ SITEURL }}/images/team/montaxichauffeur.png" alt="" class="img-responsive img-circle" /></div>
-			 <a href="http://play.google.com/store/apps/details?id=com.taxibleuservices.mytaxicorp"><img alt="Get it on Google Play" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
-                         <a href="https://itunes.apple.com/fr/app/montaxi-chauffeur/id954025129?mt=8"><img alt="Download on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a>
-                     </div>
-                 </div>
-                 </div>
-             </div>
-
-
-         </div>
-           <div class="row">
-                  <div class="col-lg-2 col-lg-offset-5">
-                      <hr class="marginbot-50">
-                  </div>
-              </div>
-             <div class="row">
-
-             <div class="col-xs-6 col-sm-3 col-md-3">
-                  <div class="wow bounceInUp" data-wow-delay="0.6s">
-                  <div class="team boxed-grey">
-                      <div class="inner">
-                          <h5>Offwigo</h5>
-                          <p class="subtitle">Opérateur</p>
-                          <div class="avatar"><img src="{{ SITEURL }}/images/team/offwigo.png" alt="" class="img-responsive img-circle" /></div>
-              <a href="http://play.google.com/store/apps/details?id=com.offwigo.driver"><img alt="Get it on Google Play" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
-                          <a href="https://itunes.apple.com/fr/app/offwigo-driver/id974014632?mt=8"><img alt="Download on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a>
-                      </div>
-                  </div>
-                  </div>
-              </div>
-
-             <div class="col-xs-6 col-sm-3 col-md-3">
-                <div class="wow bounceInUp" data-wow-delay="0.4s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-                        <h5>Taxi Bleu du Midi</h5>
-                        <p class="subtitle">Opérateur</p>
-                        <div class="avatar"><img src="{{ SITEURL }}/images/team/tbdm.png" alt="" class="img-responsive img-circle" /></div>
-                    </div>
-                </div>
-                </div>
-            </div>
-
-
-            <div class="col-xs-6 col-sm-3 col-md-3">
-                <div class="wow bounceInUp" data-wow-delay="0.6s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-                        <h5>TaxiLoc</h5>
-                        <p class="subtitle">Opérateur</p>
-                        <div class="avatar"><img src="{{ SITEURL }}/images/team/taxiloc.png" alt="" class="img-responsive img-circle" /></div>
-			<a href="https://play.google.com/store/apps/details?id=com.deveryware.tram.taxiloc.driver"><img alt="Get it on Google Play"  src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
-            <a href="https://itunes.apple.com/fr/app/taxilocdriver/id616634162?mt=8"><img alt="Download on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a>
-                    </div>
-                </div>
-                </div>
-            </div>
-
-
-            <div class="col-xs-6 col-sm-3 col-md-3">
-                <div class="wow bounceInUp" data-wow-delay="0.2s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-                        <h5>TaxiProxi</h5>
-                        <p class="subtitle">Opérateur</p>
-                        <div class="avatar"><img src="{{ SITEURL }}/images/team/taxiproxi.png" alt="" class="img-responsive img-circle" /></div>
-			<a href="http://play.google.com/store/apps/details?id=com.desclick.taxiproxi"><img alt="Get it on Google Play"  src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
-  <a href="https://itunes.apple.com/fr/app/taxi-proxi/id510336055?mt=8"><img alt="Download  on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a>
-                    </div>
-                </div>
-                </div>
-            </div>
-
-         </div>
-             <div class="row">
-                    <div class="col-lg-2 col-lg-offset-5">
-                        <hr class="marginbot-50">
-                    </div>
-                </div>
-               <div class="row">
-
-            <div class="col-xs-6 col-sm-3 col-md-3">
-                 <div class="wow bounceInUp" data-wow-delay="0.2s">
-                 <div class="team boxed-grey">
-                     <div class="inner">
-                         <h5>Taxis Connect</h5>
-                         <p class="subtitle">Opérateur</p>
-                         <div class="avatar"><img src="{{ SITEURL }}/images/team/taxisconnect.png" alt="" class="img-responsive img-circle" /></div>
-			<a href="https://play.google.com/store/apps/details?id=com.taxisconnect.driver"><img alt="Get it on Google Play"  src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
-			 <a href="https://itunes.apple.com/fr/app/taxisconnectdriver/id730972682?mt=8"><img alt="Download  on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a>
-                     </div>
-                 </div>
-                 </div>
-             </div>
-
-             <div class="col-xs-6 col-sm-3 col-md-3">
-                 <div class="wow bounceInUp" data-wow-delay="0.8s">
-                 <div class="team boxed-grey">
-                     <div class="inner">
-                         <h5>G7</h5>
-                         <p class="subtitle">Opérateur</p>
-                         <div class="avatar"><img src="{{ SITEURL }}/images/team/g7.png" alt="" class="img-responsive img-circle" /></div>
-                     </div>
-                 </div>
-                 </div>
-             </div>
-
-
-            <div class="col-xs-6 col-sm-3 col-md-3">
-                 <div class="wow bounceInUp" data-wow-delay="0.2s">
-                 <div class="team boxed-grey">
-                     <div class="inner">
-                         <h5>Taxis Radio Aixois</h5>
-                         <p class="subtitle">Opérateur</p>
-                         <div class="avatar"><img src="{{ SITEURL }}/images/team/taxisradioaixois.png" alt="" class="img-responsive img-circle" /></div>
-                     </div>
-                 </div>
-                 </div>
-             </div>
-
-
-             <div class="col-xs-6 col-sm-3 col-md-3">
-                  <div class="wow bounceInUp" data-wow-delay="0.8s">
-                  <div class="team boxed-grey">
-                      <div class="inner">
-                          <h5>Taxis Rennais</h5>
-                          <p class="subtitle">Opérateur</p>
-                          <div class="avatar"><img src="{{ SITEURL }}/images/team/taxis-rennais.png" alt="" class="img-responsive img-circle" /></div>
-			 <p class="subtitle">bientôt disponible</p>
-                      </div>
-                  </div>
-                  </div>
-              </div>
-
-         </div>
-             <div class="row">
-                    <div class="col-lg-2 col-lg-offset-5">
-                        <hr class="marginbot-50">
-                    </div>
-                </div>
-               <div class="row">
-
-
-             <div class="col-xs-6 col-sm-3 col-md-3">
-                   <div class="wow bounceInUp" data-wow-delay="0.8s">
-                   <div class="team boxed-grey">
-                       <div class="inner">
-                           <h5>T.R.A.M Montpellier</h5>
-                           <p class="subtitle">Opérateur</p>
-                           <div class="avatar"><img src="{{ SITEURL }}/images/team/tram.png" alt="" class="img-responsive img-circle" /></div>
-                       </div>
-                   </div>
-                   </div>
-               </div>
-
-             <div class="col-xs-6 col-sm-3 col-md-3">
-                  <div class="wow bounceInUp" data-wow-delay="0.4s">
-                  <div class="team boxed-grey">
-                      <div class="inner">
-                          <h5>Tessa</h5>
-                          <p class="subtitle">Equipementier</p>
-                          <div class="avatar"><img src="{{ SITEURL }}/images/team/tessa.png" alt="" class="img-responsive img-circle" /></div>
-			 <p class="subtitle">bientôt disponible</p> 
-                      </div>
-                  </div>
-                  </div>
-              </div>
-
-
-             <div class="col-xs-6 col-sm-3 col-md-3">
-                 <div class="wow bounceInUp" data-wow-delay="0.4s">
-                 <div class="team boxed-grey">
-                     <div class="inner">
-                         <h5>UNT</h5>
-                         <p class="subtitle">Opérateur</p>
-                         <div class="avatar"><img src="{{ SITEURL }}/images/team/unt.png" alt="" class="img-responsive img-circle" /></div>
-
-                     </div>
-                 </div>
-                 </div>
-             </div>
+          </div>
+          <div class="row">
+    {% else %}
+      {% if loop.index is divisibleby 2 %}
+            <div class="clearfix visible-xs-block"></div>
+     {% endif %}
+    {% endif %}
+  {% endfor %}
 
          </div>
       </div>
