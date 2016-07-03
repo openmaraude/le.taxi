@@ -4,12 +4,11 @@ Template: city
 CityName: Aix-en-Provence
 CityPhoto: images/city/aix.jpg
 clients: nom, type, logo, playstoreid, appstoreid, web, available
-     tedyCab, , images/team/tedycab.png, com.transdev.tedycab, id1084982482, , yes
      Zaléou, , images/team/zaleou.png, biz.ixxi.opendatataxi, id1055739408, , yes
      Mon Appli Taxi, , images/team/montaxi.png, com.taxibleuservices.mytaxi, id953924194, , yes
-     Taxiloc, , images/team/taxiloc.png, , id511899249, , no
-     Triperz, , images/team/triperz.png, , , , no
-     TaxiProxi, , images/team/taxiproxi.png, , , , no
+     Taxiloc, , images/team/taxiloc.png, , id511899249, , yes
+     Triperz, , images/team/triperz.png, co.triperz.android, id1052233930, , yes
+     tedyCab, , images/team/tedycab.png, com.transdev.tedycab, id1084982482, , yes
 drivers: nom, type, logo, playstoreid, appstoreid, web, available
      Tessa, Équipementier, images/team/tessa.png, , , http://www.tessa.eu.com/, yes
      Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes
