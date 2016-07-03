@@ -3,7 +3,8 @@
 {% block description %}{{ page.description }}{% endblock %}
 {% block ghostlogo %}
                 <a class="navbar-brand ghost-logo" href="index.html#intro">
-                     <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo_le.taxi.svg">
+                    <div><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/marianne.svg">
+                        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo_le.taxi.svg"></div>
                  </a>
 {% endblock %}
 
@@ -12,6 +13,7 @@
 
     <!-- Section: intro -->
     <section id="intro" class="intro">
+        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/marianne.svg" class="marianne">
         <div class="slogan">
             <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo_le.taxi.svg">
             <h4>Un clic, un taxi</h4>
@@ -21,7 +23,7 @@
                 <i class="fa fa-angle-double-down animated"></i>
             </a>
         </div>
-     
+
     </section>
     <!-- /Section: intro -->
 
