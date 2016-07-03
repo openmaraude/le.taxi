@@ -21,11 +21,11 @@ clients: nom, type, logo, playstoreid, appstoreid, web, available
      Tessa, Équipementier, images/team/tessa.png, , , http://www.tessa.eu.com/, yes
      Taxis Radio Aixois, Opérateur, images/team/taxisradioaixois.png, , , http://www.taxisradioaixois.com/, yes
      Les Taxis Marseillais, Opérateur, images/team/taxis-marseillais.png, , , http://lestaxismarseillais.fr/, yes
-     Taxi Radio Marseille, Opérateur, images/team/taxiradiomarseille.png, , , , no
      Taxis Connect, Opérateur, images/team/taxisconnect.png, com.taxisconnect.driver, id730972682, , no
-     Allo Taxi Roubaix Tourcoing, Opérateur, images/team/allotaxiroubaix.png, , , , no
+     Allo Taxi Roubaix Tourcoing, Opérateur, images/team/allotaxiroubaix.png, , ,http://www.pagesjaunes.fr/pros/54688802 , yes
      Alpha Taxis, Opérateur, images/team/alphataxis.png, , , http://site.alphataxis.fr/, yes
      Atlantis Taxis, Opérateur, images/team/atlantis.png, , , http://www.atlantistaxis.net/, yes
      G7, Opérateur, images/team/g7.png, , , https://www.g7.fr/chauffeur-g7-taxi, yes
      Taxis Rennais, Opérateur, images/team/taxis-rennais.png, , , http://www.taxisrennais.fr/, yes
-     Doko, Opérateur, images/team/dokodriver.png, com.doko.driver, , , no
+     Abeilles Taxis La Rochelle, Opérateur, images/team/abeilles-taxis-la-rochelle.png, , , http://www.taxi-la-rochelle.com/, yes
+

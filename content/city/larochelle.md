@@ -19,11 +19,11 @@ drivers: nom, type, logo, playstoreid, appstoreid, web, available
     Offwigo, Opérateur, images/team/offwigo.png, com.offwigo.driver, id974014632, , yes
     FNAT, Opérateur, images/team/fnat.png, com.deveryware.tram.taxiloc.driver.fnat, id1115197992, , yes
     Taxis Connect, Opérateur, images/team/taxisconnect.png, com.taxisconnect.driver, id730972682, , no
-    Abeilles Taxi La Rochelle, Opérateur, images/team/abeilles-taxis-la-rochelle.png, , , http://www.taxi-la-rochelle.com/, yes
+    Abeilles Taxis La Rochelle, Opérateur, images/team/abeilles-taxis-la-rochelle.png, , , http://www.taxi-la-rochelle.com/, yes
 
 La Rochelle a été l'une des premières villes en France à expérimenter Le.Taxi.
 
-Vous avez commandé un taxi avec l'une des applications agréées ? 
+Vous avez commandé un taxi avec l'une des applications agréées ?
 
 Votre avis nous intéresse : <a href="https://docs.google.com/forms/d/19ZuQSpQ5vcIq4DQdo-Fohlg25N_7io-9cpoXGFPAmzM/viewform" class="button">
 <span><i class="fa fa-thumbs-up"></i></span>Donner mon avis</a>
