@@ -1,4 +1,4 @@
-{% extends "base-city.html" %}
+{% extends "base.html" %}
 {% block title %}{{ SITENAME }} : {{ page.title }}{% endblock %}
 {% block description %}{{ page.description }}{% endblock %}
 {% block customcss %}
@@ -20,12 +20,45 @@ font-weight: bold;
 align:center;
 padding:20px;
 }
+
 {% endblock %}
+
+{% block ribbon %}
+   {% if page.overlay is defined %}
+     <a class="comingsoon-ribbon" href="#" title="{{ page.overlay }}">{{ page.overlay }}</a>
+   {% endif %}
+{% endblock %}
+
 {% block ghostlogo %}
-                <a class="navbar-brand ghost-logo" href="index.html#intro">
+                <a class="navbar-brand ghost-logo" href="{{ SITEURL }}/index.html#intro">
                    <div><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/marianne.svg">
                         <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo_le.taxi.svg"></div>
                  </a>
+{% endblock %}
+
+{% block navlinks %}
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                  <li><a href="#how">Comment ça marche ?</a></li>
+                  <li><a href="#who_client">Pour les clients</a></li>
+                  <li><a href="#who_taxi">Pour les taxis</a></li>
+                  <li><a href="#feedback">Votre Avis</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">En savoir plus <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="{{ SITEURL }}/index.html">Site national</a></li>
+                      <li><a href="{{ SITEURL }}/faq.html">Foire aux Questions</a></li>
+                      <li><a href="{{ SITEURL }}/press.html">La presse en parle</a></li>
+                      <li><a href="{{ SITEURL }}/join.html">Adhérer</a></li>
+                      <li><a href="{{ SITEURL }}/data.html">Données Anonymisées</a></li>
+                      <li><a href="{{ SITEURL }}/tech.html">Documentation Technique</a></li>
+                      <li><a href="{{ SITEURL }}/english.html">In English</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
 {% endblock %}
 
 {% block content %}

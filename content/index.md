@@ -28,4 +28,4 @@ clients: nom, type, logo, playstoreid, appstoreid, web, available
      Atlantis Taxis, Opérateur, images/team/atlantis.png, , , http://www.atlantistaxis.net/, yes
      G7, Opérateur, images/team/g7.png, , , https://www.g7.fr/chauffeur-g7-taxi, yes
      Taxis Rennais, Opérateur, images/team/taxis-rennais.png, , , http://www.taxisrennais.fr/, yes
-     Doko, Opérateur, images/team/dokodriver.png, , , , no
+     Doko, Opérateur, images/team/dokodriver.png, com.doko.driver, , , no
