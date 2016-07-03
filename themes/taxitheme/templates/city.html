@@ -23,7 +23,8 @@ padding:20px;
 {% endblock %}
 {% block ghostlogo %}
                 <a class="navbar-brand ghost-logo" href="index.html#intro">
-                     <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo_le.taxi.svg">
+                   <div><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/marianne.svg">
+                        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo_le.taxi.svg"></div>
                  </a>
 {% endblock %}
 
@@ -32,6 +33,7 @@ padding:20px;
 
     <!-- Section: intro -->
     <section id="intro" class="intro">
+        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/marianne.svg" class="marianne">
         <div class="slogan">
             <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo_le.taxi.svg">
             <h4>à {{ page.cityname }}</h4>
