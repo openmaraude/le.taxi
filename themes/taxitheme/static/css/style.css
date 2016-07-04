@@ -68,13 +68,14 @@ a:focus {
 }
 .navbar-brand {
   height: 40px;
+  width: 207px;
   padding: 5px 15px;
   font-size: 18px;
   line-height: 1em;
 }
 
 .navbar-brand h1{
-	color: #fff;
+  color: #fff;
   font-size: 20px;
   line-height: 40px;
 }
