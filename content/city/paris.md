@@ -3,7 +3,7 @@ Description: Plate-forme nationale de mise en relation client / taxi
 Template: city
 CityName: Paris
 CityPhoto: images/city/paris.jpg
-Overlay: Ouverture Imminente
+Overlay: Ouverture le 12 juillet
 clients: nom, type, logo, playstoreid, appstoreid, web, available
     tedyCab, , images/team/tedycab.png, com.transdev.tedycab, id1084982482, , yes
     Zaléou, , images/team/zaleou.png, biz.ixxi.opendatataxi, id1055739408, , yes
