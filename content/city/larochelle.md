@@ -3,7 +3,6 @@ Description: Plate-forme nationale de mise en relation client / taxi
 Template: city
 CityName: La Rochelle
 CityPhoto: images/city/larochelle.jpg
-Overlay: Ouverture le 4 Juillet
 clients: nom, type, logo, playstoreid, appstoreid, web, available
     tedyCab, , images/team/tedycab.png, com.transdev.tedycab, id1084982482, , yes
     Zaléou, , images/team/zaleou.png, biz.ixxi.opendatataxi, id1055739408, , yes
