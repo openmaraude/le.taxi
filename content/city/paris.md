@@ -3,14 +3,14 @@ Description: Plate-forme nationale de mise en relation client / taxi
 Template: city
 CityName: Paris
 CityPhoto: images/city/paris.jpg
-Overlay: Ouverture le 12 juillet
+Overlay: Ouverture le 20 juillet
 clients: nom, type, logo, playstoreid, appstoreid, web, available
     tedyCab, , images/team/tedycab.png, com.transdev.tedycab, id1084982482, , yes
     Zaléou, , images/team/zaleou.png, biz.ixxi.opendatataxi, id1055739408, , yes
     Mon Appli Taxi, , images/team/montaxi.png, com.taxibleuservices.mytaxi, id953924194, , yes
     Taxiloc, , images/team/taxiloc.png, , id511899249, , yes
     Triperz, , images/team/triperz.png, co.triperz.android, id1052233930, , yes
-    Paris Taxis v2.0, , images/team/paristaxis.png, , , , no
+    Paris Taxis v2.0, , images/team/paristaxis.png, com.appspanel.taxiparis, , , yes
 drivers: nom, type, logo, playstoreid, appstoreid, web, available
     Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes
     TaxiProxi, Opérateur, images/team/taxiproxi.png, com.desclick.taxiproxi, id510336055, , yes
