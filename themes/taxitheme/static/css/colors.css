@@ -3,11 +3,16 @@ a,.tp-caption a.btn:hover {
 	color: #959fa3;
 }
 .top-nav-collapse {
-    background-color:rgba(229, 229, 229, 0.9);
-    background: -moz-linear-gradient(to bottom, #EFEFEF 0%, #BBBBBB 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-    background: -webkit-linear-gradient(to bottom, #EFEFEF 0%, #BBBBBB 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-    background: -o-linear-gradient(to bottom, #EFEFEF 0%, #BBBBBB 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
-    background: linear-gradient(to top , #EFEFEF 0%, #BBBBBB 100%) repeat scroll 0 0 rgba(0, 0, 0, 0); 
+    background: #f9fcf7; /* Old browsers */
+    background: -moz-linear-gradient(top, #e5e9e0 0%,#f9fcf7 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e5e9e0 0%,#f9fcf7 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e5e9e0 0%,#f9fcf7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e9e0', endColorstr='#f9fcf7',GradientType=0 ); /* IE6-9 */
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15);
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#dddddd, Direction=180, Strength=5);
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
