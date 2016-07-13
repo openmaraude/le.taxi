@@ -11,7 +11,6 @@ clients: nom, type, logo, playstoreid, appstoreid, web, available
     Taxiloc, , images/team/taxiloc.png, , id511899249, , yes
     Triperz, , images/team/triperz.png, co.triperz.android, id1052233930, , yes
     Paris Taxis v2.0, , images/team/paristaxis.png, com.appspanel.taxiparis, , , yes
-    Le Taximètre, , images/team/taximetre.png, , id1081530094, , yes
 drivers: nom, type, logo, playstoreid, appstoreid, web, available
     Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes
     TaxiProxi, Opérateur, images/team/taxiproxi.png, com.desclick.taxiproxi, id510336055, , yes
