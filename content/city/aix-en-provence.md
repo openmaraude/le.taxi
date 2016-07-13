@@ -9,7 +9,6 @@ clients: nom, type, logo, playstoreid, appstoreid, web, available
      Taxiloc, , images/team/taxiloc.png, , id511899249, , yes
      Triperz, , images/team/triperz.png, co.triperz.android, id1052233930, , yes
      tedyCab, , images/team/tedycab.png, com.transdev.tedycab, id1084982482, , yes
-     Le Taximètre, , images/team/taximetre.png, , id1081530094, , yes
 drivers: nom, type, logo, playstoreid, appstoreid, web, available
      Tessa, Équipementier, images/team/tessa.png, , , http://www.tessa.eu.com/, yes
      Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes
