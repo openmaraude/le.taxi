@@ -192,6 +192,9 @@ padding:20px;
                 <div class="wow bounceInUp" data-wow-delay="0.{{ loop.index0 % 4 }}s">
                   <div class="team boxed-grey">
                       <div class="inner">
+    {% if item.price != "" %}
+                          <div class="ribbon"><span>{{item.price|e}}</span></div>
+    {% endif %}
                           <h5>{{item.nom|e}}</h5>
    {% if item.type != "" %}
                           <p class="subtitle">{{item.type|e}}</p>
@@ -211,6 +214,10 @@ padding:20px;
   {% if (item.playstoreid == "" and item.appstoreid == "" and item.web == "") or item.available != "yes" %}
                       <p class="subtitle">Bientôt disponible</p>
   {% endif %}
+  {% if item.pricedetails != "" %}
+                      <p class="subtitle">{{item.pricedetails|e}}</p>
+  {% endif %}
+
                   </div>
                   </div>
             </div>
@@ -263,7 +270,10 @@ padding:20px;
                  <div class="wow bounceInUp" data-wow-delay="0.{{ loop.index0 % 4 }}s">
                    <div class="team boxed-grey">
                        <div class="inner">
-                           <h5>{{item.nom|e}}</h5>
+   {% if item.price != "" %}
+                           <div class="ribbon"><span>{{item.price|e}}</span></div>
+   {% endif %}
+                            <h5>{{item.nom|e}}</h5>
    {% if item.type != "" %}
                            <p class="subtitle">{{item.type|e}}</p>
    {% endif %}
@@ -281,6 +291,9 @@ padding:20px;
    {% endif %}
    {% if (item.playstoreid == "" and item.appstoreid == "" and item.web == "") or item.available != "yes" %}
                        <p class="subtitle">Bientôt compatible</p>
+   {% endif %}
+   {% if item.pricedetails != "" %}
+                       <p class="subtitle">{{item.pricedetails|e}}</p>
    {% endif %}
                    </div>
                    </div>
