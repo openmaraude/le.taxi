@@ -12,7 +12,7 @@ clients: nom, type, logo, playstoreid, appstoreid, web, available, price, priced
     Paris Taxis v2.0, , images/team/paristaxis.png, com.appspanel.taxiparis, id756914088, , yes, gratuit,
     Taxiloc Concierge, , images/team/taxilocconcierge.png, , , http://www.taxiloc.com/taxiweb/concierge, yes, gratuit,
 drivers: nom, type, logo, playstoreid, appstoreid, web, available, price, pricedetails
-    Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes, gratuit *, * gratuit jusqu'au 31/08
+    Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes,,
     TaxiProxi, Opérateur, images/team/taxiproxi.png, com.desclick.taxiproxi, id510336055, , yes,,
     UNT, Partenaire, images/team/unt.png, , , http://www.u-n-t.fr/, yes,,
     Mob1Taxi, Opérateur, images/team/mob1taxi.png , net.mobitaxi, , , yes,,
