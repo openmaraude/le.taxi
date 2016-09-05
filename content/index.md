@@ -11,7 +11,7 @@ clients: nom, type, logo, playstoreid, appstoreid, web, available, price, priced
      Taxiloc Concierge, , images/team/taxilocconcierge.png, , , http://www.taxiloc.com/taxiweb/concierge, yes, gratuit,
 drivers: nom, type, logo, playstoreid, appstoreid, web, available, price, pricedetails
      Axygest, Équipementier, images/team/axygest.png, , , http://www.axygest.fr/, yes,,
-     Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes, gratuit *, * gratuit jusqu'au 31/08
+     Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes,,
      Taxi Bleu du Midi, Opérateur, images/team/tbdm.png, , , http://www.taxibleudumidi.fr/, yes,,
      TaxiProxi, Opérateur, images/team/taxiproxi.png, com.desclick.taxiproxi, id510336055, , yes,,
      T.R.A.M Montpellier, Opérateur, images/team/tram.png, , , http://www.taxi-tram.fr/, yes,,
