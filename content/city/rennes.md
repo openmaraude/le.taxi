@@ -20,7 +20,7 @@ drivers: nom, type, logo, playstoreid, appstoreid, web, available, price, priced
     FNAT, Opérateur, images/team/fnat.png, com.deveryware.tram.taxiloc.driver.fnat, id1115197992, , yes, gratuit *, * gratuit jusqu'au 31/12
     Taxis Connect, Opérateur, images/team/taxisconnect.png, com.taxisconnect.driver, id730972682, , no,,
     UNT, Partenaire, images/team/unt.png, , , http://www.u-n-t.fr/, yes,,
-    Taxis Rennais, Opérateur, images/team/taxis-rennais.png, , , http://www.taxisrennais.fr/, yes,,
+    Taxis Rennais, Opérateur, images/team/taxisrennais.png, , , http://www.taxisrennais.fr/, yes,,
     Axygest, Équipementier, images/team/axygest.png, , , http://www.axygest.fr/, yes,,
 
 Rennes a été l'une des premières villes en France à expérimenter Le.Taxi.

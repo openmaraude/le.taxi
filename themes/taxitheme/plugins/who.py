@@ -29,7 +29,7 @@ def add_clients(generator, metadata):
         for client in clients[1:]:
             values = map(unicode.strip, client.split(','))
             client_dict = dict(zip(keys, values))
-            metadata['clients'][client_dict['nom']] = client_dict
+            metadata['clients'][client_dict['logo']] = client_dict
 
 def add_drivers(generator, metadata):
 
@@ -45,7 +45,7 @@ def add_drivers(generator, metadata):
         for driver in drivers[1:]:
             values = map(unicode.strip, driver.split(','))
             driver_dict = dict(zip(keys, values))
-            metadata['drivers'][driver_dict['nom']] = driver_dict
+            metadata['drivers'][driver_dict['logo']] = driver_dict
 
 
 def register():
