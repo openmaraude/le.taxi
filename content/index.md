@@ -9,6 +9,7 @@ clients: nom, type, logo, playstoreid, appstoreid, web, available, price, priced
      Triperz, , images/team/triperz.png, co.triperz.android, id1052233930, , yes, gratuit,
      Paris Taxis v2.0, , images/team/paristaxis.png, com.appspanel.taxiparis, id756914088, , yes, gratuit,
      Taxiloc Concierge, , images/team/taxilocconcierge.png, , , http://www.taxiloc.com/taxiweb/concierge, yes, gratuit,
+     3443, , images/team/3443-prix.png, , , http://www.taxiloc.com/taxiweb/Call3443, yes,,
 drivers: nom, type, logo, playstoreid, appstoreid, web, available, price, pricedetails
      Axygest, Équipementier, images/team/axygest.png, , , http://www.axygest.fr/, yes,,
      Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes,,
