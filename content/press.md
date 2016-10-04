@@ -1,6 +1,13 @@
 Title: La presse en parle
 Description: La presse et les médias parlent de la plateforme Le.Taxi
 
+<img src="/images/presse/le-monde.png" class="plogo" alt="Le Monde">
+** Lancement officiel du service pour héler un taxi par smartphone **   
+« Alain Vidalies, a lancé officiellement mardi 4 octobre, à Paris, la plate-forme « le.taxi », qui permet de héler un véhicule par smartphone. « Voilà, il doit arriver dans deux minutes », a constaté le secrétaire d’Etat, penché sur l’écran d’un téléphone où s’affichait le trajet du taxi, commandé quelques secondes plus tôt »  
+_article dans_ Le Monde _du 04 octobre 2016_
+<!-- http://www.lemonde.fr/entreprises/article/2016/10/04/lancement-officiel-du-service-pour-heler-un-taxi-par-smartphone_5008023_1656994.html -->
+<hr class="press">
+
 <img src="/images/presse/liberation.png" class="plogo" alt="Libération">
 ** Combien d'étoiles pour votre taxi ? **   
 « Plus étonnant : ce sont les services publics qui ont mis en place ce système opérationnel dès mardi à Montpellier. »  
