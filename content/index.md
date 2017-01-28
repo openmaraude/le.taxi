@@ -31,4 +31,5 @@ drivers: nom, type, logo, playstoreid, appstoreid, web, available, price, priced
      G7, Opérateur, images/team/g7.png, , , https://www.g7.fr/chauffeur-g7-taxi, yes,,
      Taxis Rennais, Opérateur, images/team/taxisrennais.png, , , http://www.taxisrennais.fr/, yes,,
      Abeilles Taxis La Rochelle, Opérateur, images/team/abeilles-taxis-la-rochelle.png, , , http://www.taxi-la-rochelle.com/, yes,,
-
+     1001Taxis, Opérateur, images/team/zz1001taxis.png, com.apps1001cabs.drivers.apps1001taxis,, , no,,
+     Taxi Radio Béziers, Opérateur, images/team/taxiradiobeziers.png,,,, no,, 
