@@ -52,8 +52,8 @@ Description: Identité graphique de la plateforme Le.Taxi
 <img src="/images/team/tedycab.png" class="img-responsive img-circle" width="300" height="300"><br>
 <i class="fa fa-download" aria-hidden="true"></i> <a href="/images/about/team/tedycab.png">Version HD PNG</a>
 
-<img src="/images/team/triperz.png" class="img-responsive img-circle" width="300" height="300"><br>
-<i class="fa fa-download" aria-hidden="true"></i> <a href="/images/about/team/triperz.png">Version HD PNG</a>
+<img src="/images/team/tako.png" class="img-responsive img-circle" width="300" height="300"><br>
+<i class="fa fa-download" aria-hidden="true"></i> <a href="/images/about/team/tako.png">Version HD PNG</a>
   
 <img src="/images/team/zaleou.png" class="img-responsive img-circle" width="300" height="300"><br>
 <i class="fa fa-download" aria-hidden="true"></i> <a href="/images/about/team/zaleou.png">Version HD PNG</a>
