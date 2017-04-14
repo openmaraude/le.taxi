@@ -9,7 +9,7 @@ clients: nom, type, logo, playstoreid, appstoreid, web, available
     Zaléou, , images/team/zaleou.png, biz.ixxi.opendatataxi, id1055739408, , yes
     Mon Appli Taxi, , images/team/montaxi.png, com.taxibleuservices.mytaxi, id953924194, , yes
     Taxiloc, , images/team/taxiloc.png, , id511899249, , yes
-    Triperz, , images/team/triperz.png, co.triperz.android, id1052233930, , yes
+    Tako, , images/team/tako.png, co.triperz.android, id1052233930, , yes
     Optimod'Lyon, ,images/team/optymod.png, fr.cityway.android_v3.optymod, , , yes
     3443, , images/team/zz3443-prix.png, , , http://www.taxiloc.com/, yes, 1€ / appel,
 drivers: nom, type, logo, playstoreid, appstoreid, web, available
