@@ -2,6 +2,7 @@ machine:
       environment:
             PYTHONPATH: ${PYTHONPATH}:${HOME}/google_appengine
             CLOUD_SDK_REPO: "cloud-sdk-$(lsb_release -c -s)"
+            PATH: "/usr/lib/google-cloud-sdk/bin:$PATH"
 
 dependencies:
       pre:
@@ -15,7 +16,6 @@ dependencies:
             - curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
             # Update and install the Cloud SDK
             - sudo apt-get update && sudo apt-get install google-cloud-sdk
-            - export PATH="/usr/lib/google-cloud-sdk/bin:$PATH"
             # Retrieve our secrets from the CircleCI environment
             - echo $CLIENT_SECRET | base64 --decode > ${HOME}/client-secret.json
             # vendor our dependencies
