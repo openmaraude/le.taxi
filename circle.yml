@@ -28,4 +28,4 @@ deployment:
       appengine:
             branch: master
             commands:
-                - gcloud deploy app app.yaml --promote
+                - gcloud -q app deploy app.yaml --promote
