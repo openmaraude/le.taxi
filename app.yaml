@@ -10,3 +10,5 @@ handlers:
 - url: /(.*)
   static_files: output/\1
   upload: output/(.*)
+- url: /\.well\-known\/acme\-challenge\/.*
+    script: letsencrypt.app
