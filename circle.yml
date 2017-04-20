@@ -2,7 +2,6 @@ machine:
       environment:
             PYTHONPATH: ${PYTHONPATH}:${HOME}/google_appengine
             CLOUD_SDK_REPO: "cloud-sdk-$(lsb_release -c -s)"
-            PATH: "/usr/lib/google-cloud-sdk/bin:$PATH"
 
 dependencies:
       pre:
@@ -35,4 +34,4 @@ deployment:
       appengine:
             branch: master
             commands:
-                - gcloud -q app deploy app.yaml --promote
+                - /usr/lib/google-cloud-sdk/bin/gcloud -q app deploy app.yaml --promote
