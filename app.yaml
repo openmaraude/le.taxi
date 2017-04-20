@@ -13,3 +13,6 @@ handlers:
 
 - url: /\.well\-known\/acme\-challenge\/.*
   script: letsencrypt.app
+
+skip_files:
+    - ^venv/.*$
