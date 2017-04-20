@@ -34,4 +34,8 @@ deployment:
       appengine:
             branch: master
             commands:
+                - cd letsencrypt
+                - git submodule init
+                - git submodule update
+                - cd ..
                 - /usr/lib/google-cloud-sdk/bin/gcloud -q app deploy app.yaml --promote
