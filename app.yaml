@@ -3,14 +3,14 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /\.well\-known\/acme\-challenge\/.*
+- url: /\.well\-known/acme\-challenge/.*
   script: letsencrypt.app
 
 - url: /
   static_files: output/index.html
   upload: output/index.html
 
-- url: ^(?!/\.well\-known\/acme\-challenge\/)/(.*)
+- url: ^\/([^.].*)
   static_files: output/\1
   upload: output/(.*)
 
