@@ -33,5 +33,5 @@ drivers: nom, type, logo, playstoreid, appstoreid, web, available, price, priced
      Abeilles Taxis La Rochelle, Opérateur, images/team/abeilles-taxis-la-rochelle.png, , , http://www.taxi-la-rochelle.com/, yes,,
      1001Taxis, Opérateur, images/team/zz1001taxis.png, com.apps1001cabs.drivers.apps1001taxis,, , no,,
      Taxi Radio Béziers, Opérateur, images/team/taxiradiobeziers.png,,,, no,, 
-     Tako chauffeur, Opérateur, images/team/tako_chauffeur.png, co.triperz.chauffeur, id1185925940, http://www.tak-o.com/chauffeurs, yes, gratuit *, *pour les courses le.taxi
+     Tako chauffeur, Opérateur, images/team/tako_chauffeur.png, co.triperz.chauffeur, id1185925940, http://www.tak-o.com/chauffeurs, yes, gratuit,
      Doko, Opérateur, images/team/dokodriver.png, com.doko.driver, , http://www.doko.city , yes,,
