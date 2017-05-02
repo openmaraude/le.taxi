@@ -10,7 +10,7 @@ handlers:
   static_files: output/index.html
   upload: output/index.html
 
-- url: ^\/([^.].*)
+- url: /(.*)
   static_files: output/\1
   upload: output/(.*)
 
