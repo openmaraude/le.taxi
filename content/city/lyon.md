@@ -21,7 +21,6 @@ drivers: nom, type, logo, playstoreid, appstoreid, web, available
     Offwigo, Opérateur, images/team/offwigo.png, com.offwigo.driver, id974014632, , yes
     FNAT, Opérateur, images/team/fnat.png, com.deveryware.tram.taxiloc.driver.fnat, id1115197992, , yes
     Taxis Connect, Opérateur, images/team/taxisconnect.png, com.taxisconnect.driver, id730972682, , no
-    Doko, Opérateur, images/team/dokodriver.png, com.doko.driver, , , no
     Axygest, Équipementier, images/team/axygest.png, , , http://www.axygest.fr/, yes
     Taxi Radio, Opérateur, images/team/taxi-radio-lyon.png, , , http://www.taxilyon.com/, no
     Allo Taxi, Opérateur, images/team/allo-taxi-lyon.png, , , http://www.allotaxi.fr/, no
