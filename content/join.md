@@ -9,13 +9,13 @@ Attention, le service n'est pour l'instant ouvert que dans <a href="/index.html#
 
 
 ###### Vous êtes chauffeur de taxi
-Si vous êtes équipé d'un terminal embarqué (Aramus, Star2000, FMS, etc), renseignez vous auprès de votre groupement ou central radio. Vous pouvez aussi télécharger l'une des <a href="/index.html#who_taxi">applications compatibles pour les chauffeurs</a> sur votre téléphone mobile.
+Si vous êtes équipé d'un terminal embarqué (Aramus, Star2000, Tessa, 1001Taxis, etc), renseignez vous auprès de votre groupement ou central radio. Vous pouvez aussi télécharger l'une des <a href="/index.html#who_taxi">applications compatibles pour les chauffeurs</a> sur votre téléphone mobile.
 
 Pendant la phase de lancement, les chauffeurs sont invités à rejoindre le registre, et participer aux tests grandeur nature sur leur zone. Cela signifie que le grand public n'est pas encore informé de la disponibilité de le.taxi, mais il est néanmoins important que les chauffeurs activent leur dispositif, et, avant l'ouverture officielle, répondent aux demandes de course qui pourraient provenir des quelques utilisateurs pilote (qui paieront leurs courses).
 
 Pendant cette période, les chauffeurs sont invités à vérifier :
 
-* le bon fonctionnement de leur outil (toujours télécharger la dernière version de leur application) et leur vigilance quant à la réactivité attendue par les clients pour confirmer les prises en charge en moins de 15 secondes,
+* le bon fonctionnement de leur outil (toujours télécharger la dernière version de leur application) et leur vigilance quant à la réactivité attendue par les clients pour confirmer les prises en charge en moins de 30 secondes,
 * leur adhésion au principe de course d'approche gratuite, c'est à dire la différence de geste requise entre une course le.taxi et une autre réservation : <b>rester au vert jusqu'à l'arrivée sur zone</b>.
 
 <br/>
