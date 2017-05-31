@@ -16,3 +16,5 @@ handlers:
 
 skip_files:
     - ^venv/.*$
+    - .*\.pyc$
+    - .*\.git
