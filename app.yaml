@@ -6,6 +6,9 @@ handlers:
 - url: /\.well\-known/acme\-challenge/.*
   script: letsencrypt.app
 
+- url: /stats
+  script: main.app
+
 - url: /
   static_files: output/index.html
   upload: output/index.html
