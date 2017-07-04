@@ -27,8 +27,6 @@ PLUGINS = ['assets','who']
 STATIC_PATHS = ['images', 'extra', 'files']
 
 EXTRA_PATH_METADATA = {
-  'extra/main.py': {'path': 'main.py'},
-  'extra/app.yaml': {'path': 'app.yaml'},
   'extra/robots.txt': {'path': 'robots.txt'},
   'extra/apple-touch-icon-precomposed.png': {'path': 'apple-touch-icon-precomposed.png'},
   'extra/apple-touch-icon.png': {'path': 'apple-touch-icon.png'},
