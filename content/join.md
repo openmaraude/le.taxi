@@ -1,27 +1,10 @@
-Title: Adhérer
+Title: Opérateurs et Centrales
 Description: Comment rejoindre la plateforme Le.Taxi
 
 ##### Comment rejoindre la plateforme le.taxi ?
 
-###### Vous êtes un particulier
-Téléchargez l'une des <a href="/index.html#who">applications compatibles pour les clients</a>.
-Attention, le service n'est pour l'instant ouvert que dans <a href="/index.html#open">certaines villes</a>.
-
-
-###### Vous êtes chauffeur de taxi
-Si vous êtes équipé d'un terminal embarqué (Aramus, Star2000, Tessa, 1001Taxis, etc), renseignez vous auprès de votre groupement ou central radio. Vous pouvez aussi télécharger l'une des <a href="/index.html#who_taxi">applications compatibles pour les chauffeurs</a> sur votre téléphone mobile.
-
-Pendant la phase de lancement, les chauffeurs sont invités à rejoindre le registre, et participer aux tests grandeur nature sur leur zone. Cela signifie que le grand public n'est pas encore informé de la disponibilité de le.taxi, mais il est néanmoins important que les chauffeurs activent leur dispositif, et, avant l'ouverture officielle, répondent aux demandes de course qui pourraient provenir des quelques utilisateurs pilote (qui paieront leurs courses).
-
-Pendant cette période, les chauffeurs sont invités à vérifier :
-
-* le bon fonctionnement de leur outil (toujours télécharger la dernière version de leur application) et leur vigilance quant à la réactivité attendue par les clients pour confirmer les prises en charge en moins de 30 secondes,
-* leur adhésion au principe de course d'approche gratuite, c'est à dire la différence de geste requise entre une course le.taxi et une autre réservation : <b>rester au vert jusqu'à l'arrivée sur zone</b>.
-
-Pour plus d'informations, téléchargez notre <a href="/files/Livret Chauffeurs Le.Taxi.pdf">livret d'informations destiné aux chauffeurs</a>.
-
 <br/>
-###### Vous êtes un groupement, une compagnie ou un central radio
+###### Vous êtes un groupement, une compagnie ou une centrale radio
 Nous vous invitons à vous rapprocher d'un <a href="/index.html#who_taxi">équipementier proposant une solution compatible</a>. Il vous appartient de déployer ou faire déployer la solution de votre choix (équipement embarqué ou application mobile) dans les véhicules.
 
 Pour adhérer à la plateforme en tant qu'opérateur de taxis, il suffit ensuite de prendre connaissance :
