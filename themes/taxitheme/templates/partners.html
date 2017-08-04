@@ -1,0 +1,199 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }} : {{ page.title }}{% endblock %}
+{% block description %}{{ page.description }}{% endblock %}
+
+{% block ghostlogo %}
+                <a class="navbar-brand" href="/index.html#intro">
+                    <div><img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/marianne.svg">
+                        <img src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/logo_le.taxi.svg"></div>
+                 </a>
+{% endblock %}
+
+{% block navlinks %}
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+              <ul class="nav navbar-nav">
+                  <li><a href="/drivers.html">Chauffeurs</a></li>
+                  <li><a href="/clients.html">Clients</a></li>
+                  <li><a href="/partners.html">Partenaires</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">En savoir plus <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="/faq.html">Foire aux Questions</a></li>
+                      <li><a href="/press.html">La presse en parle</a></li>
+                      <li><a href="/join.html">Opérateurs/Centrales</a></li>
+                      <li><a href="/data.html">Données Anonymisées</a></li>
+                      <li><a href="/tech.html">Documentation Technique</a></li>
+                      <li><a href="/english.html">In English</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+{% endblock %}
+
+{% block content %}
+          <a name="pcontent"></a>
+
+
+   <!-- Section: who_client -->
+    <section id="who" class="home-section text-center">
+        <div class="heading-about">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="wow bounceInDown" data-wow-delay="0.4s">
+                    <div class="section-heading">
+                    <h2>Pour les clients</h2>
+                    <i class="fa fa-2x fa-angle-down"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-5">
+                <hr class="marginbot-50">
+            </div>
+        </div>
+        <div class="row">
+
+      </div>
+      </div>
+
+ {% for nm, item in page.clients|dictsort(false, by='key') %}
+           <div class="col-xs-6 col-sm-3 col-md-3">
+                 <div class="wow bounceInUp" data-wow-delay="0.{{ loop.index0 % 4 }}s">
+                   <div class="team boxed-grey">
+                       <div class="inner">
+    {% if item.price != "" %}
+                          <div class="ribbon"><span>{{item.price|e}}</span></div>
+    {% endif %}
+                           <h5>{{item.nom|e}}</h5>
+    {% if item.type != "" %}
+                           <p class="subtitle">{{item.type|e}}</p>
+    {% endif %}
+                           <div class="avatar"><img src="{{ SITEURL }}/{{item.logo|e}}" alt="" class="img-responsive img-circle" /></div>
+                       </div>
+   {% if item.playstoreid != "" and item.available == "yes" %}
+                       <a href="https://play.google.com/store/apps/details?id={{item.playstoreid|e}}"><img alt="Get it on GooglePlay" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
+   {% endif %}
+   {% if item.appstoreid != "" and item.available == "yes" %}
+                       <a href="https://itunes.apple.com/fr/app/{{item.appstoreid|e}}?mt=8"><img alt="Download on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a>
+   {% endif %}
+   {% if item.web != "" and item.available == "yes" %}
+                        <a href="{{ item.web }}" class="button grey">
+                           <span><i class="fa fa-chevron-circle-right"></i></span>web</a>
+   {% endif %}
+   {% if (item.playstoreid == "" and item.appstoreid == "" and item.web == "") or item.available != "yes" %}
+                       <p class="subtitle">Bientôt disponible</p>
+   {% endif %}
+   {% if item.pricedetails != "" %}
+                       <p class="subtitle">{{item.pricedetails|e}}</p>
+   {% endif %}
+
+                   </div>
+                   </div>
+             </div>
+   {% if loop.index is divisibleby 4 %}
+         </div>
+         <div class="row">
+              <div class="col-lg-2 col-lg-offset-5">
+                  <hr class="marginbot-50">
+              </div>
+         </div>
+         <div class="row">
+   {% else %}
+     {% if loop.index is divisibleby 2 %}
+           <div class="clearfix visible-xs-block"></div>
+     {% endif %}
+   {% endif %}
+ {% endfor %}
+
+
+    </section>
+
+
+    <!-- Section: who_taxi -->
+     <section id="who_taxi" class="home-section text-center">
+         <div class="heading-about">
+             <div class="container">
+             <div class="row">
+                 <div class="col-lg-8 col-lg-offset-2">
+                     <div class="wow bounceInDown" data-wow-delay="0.4s">
+                     <div class="section-heading">
+                     <h2>Pour les taxis</h2>
+                    <i class="fa fa-2x fa-angle-down"></i>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-5">
+                <hr class="marginbot-50">
+            </div>
+        </div>
+        <div class="row">
+
+  {% for nm, item in page.drivers|dictsort(false, by='key') %}
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                  <div class="wow bounceInUp" data-wow-delay="0.{{ loop.index0 % 4 }}s">
+                    <div class="team boxed-grey">
+                        <div class="inner">
+    {% if item.price != "" %}
+                           <div class="ribbon"><span>{{item.price|e}}</span></div>
+    {% endif %}
+                            <h5>{{item.nom|e}}</h5>
+    {% if item.type != "" %}
+                            <p class="subtitle">{{item.type|e}}</p>
+    {% endif %}
+                            <div class="avatar"><img src="{{ SITEURL }}/{{item.logo|e}}" alt="" class="img-responsive img-circle" /></div>
+                        </div>
+    {% if item.playstoreid != "" and item.available == "yes" %}
+                        <a href="https://play.google.com/store/apps/details?id={{item.playstoreid|e}}"><img alt="Get it on GooglePlay"   src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
+    {% endif %}
+    {% if item.appstoreid != "" and item.available == "yes" %}
+                        <a href="https://itunes.apple.com/fr/app/{{item.appstoreid|e}}?mt=8"><img alt="Download on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a>
+    {% endif %}
+    {% if item.web != "" and item.available == "yes" %}
+                         <a href="{{ item.web }}" class="button grey">
+                           <span><i class="fa fa-chevron-circle-right"></i></span>web</a>
+    {% endif %}
+    {% if (item.playstoreid == "" and item.appstoreid == "" and item.web == "") or item.available != "yes" %}
+                        <p class="subtitle">Bientôt compatible</p>
+    {% endif %}
+    {% if item.pricedetails != "" %}
+                        <p class="subtitle">{{item.pricedetails|e}}</p>
+    {% endif %}
+                    </div>
+                    </div>
+              </div>
+    {% if loop.index is divisibleby 4 %}
+          </div>
+          <div class="row">
+               <div class="col-lg-2 col-lg-offset-5">
+                   <hr class="marginbot-50">
+               </div>
+          </div>
+          <div class="row">
+    {% else %}
+      {% if loop.index is divisibleby 2 %}
+            <div class="clearfix visible-xs-block"></div>
+     {% endif %}
+    {% endif %}
+  {% endfor %}
+
+         </div>
+      </div>
+    </section>
+    <!-- /Section: who -->
+
+    {% endblock %}
+
+
+
