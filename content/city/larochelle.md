@@ -8,11 +8,12 @@ clients: nom, type, logo, playstoreid, appstoreid, web, available, price, priced
     Zaléou, , images/team/zaleou.png, biz.ixxi.opendatataxi, id1055739408, , yes, gratuit,
     Mon Appli Taxi, , images/team/montaxi.png, com.taxibleuservices.mytaxi, id953924194, , yes, gratuit,
     Taxiloc, , images/team/taxiloc.png, , id511899249, , yes, gratuit,
-    Tako, , images/team/tako-new.png, co.triperz.android, id1052233930, , yes, gratuit,
+    Tako, , images/team/tako.png, co.triperz.android, id1052233930, , yes, gratuit,
     Paris Taxis v2.0, , images/team/paristaxis.png, com.appspanel.taxiparis, id756914088, , yes, gratuit,
     Taxiloc Concierge, , images/team/taxilocconcierge.png, , , http://www.taxiloc.taxi/taxiweb/concierge, yes, gratuit,
     3443, , images/team/zz3443-prix.png, , , http://www.taxiloc.com/, yes, 1€ / appel,
 drivers: nom, type, logo, playstoreid, appstoreid, web, available, price, pricedetails
+     Tako chauffeur, Opérateur, images/team/tako_chauffeur.png, co.triperz.chauffeur, id1185925940, http://www.tak-o.com/chauffeurs, yes, gratuit,
     Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes,,
     TaxiProxi, Opérateur, images/team/taxiproxi.png, com.desclick.taxiproxi, id510336055, , yes,,
     Mob1Taxi, Opérateur, images/team/mob1taxi.png , net.mobitaxi, , , yes,,
