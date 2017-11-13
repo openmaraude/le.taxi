@@ -11,7 +11,6 @@ clients: nom, type, logo, playstoreid, appstoreid, web, available, price, priced
      Tako, , images/team/tako.png, co.triperz.android, id1052233930, , yes, gratuit,
      Paris Taxis v2.0, , images/team/paristaxis.png, com.appspanel.taxiparis, id756914088, , yes, gratuit,
      Taxiloc Concierge, , images/team/taxilocconcierge.png, , , http://www.taxiloc.taxi/taxiweb/concierge, yes, gratuit,
-     3443, , images/team/zz3443-prix.png, , , http://www.taxiloc.com/, yes, 1€ / appel,
 drivers: nom, type, logo, playstoreid, appstoreid, web, available, price, pricedetails
       Tako chauffeur, Opérateur, images/team/tako_chauffeur.png, co.triperz.chauffeur, id1185925940, http://www.tak-o.com/chauffeurs, yes, gratuit,
      Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes,,
