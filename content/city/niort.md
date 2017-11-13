@@ -10,7 +10,6 @@ clients: nom, type, logo, playstoreid, appstoreid, web, available
     Mon Appli Taxi, , images/team/montaxi.png, com.taxibleuservices.mytaxi, id953924194, , yes
     Taxiloc, , images/team/taxiloc.png, , id511899249, , yes
     Tako, , images/team/tako.png, co.triperz.android, id1052233930, , yes
-    3443, , images/team/zz3443-prix.png, , , http://www.taxiloc.com/, yes, 1€ / appel,
 drivers: nom, type, logo, playstoreid, appstoreid, web, available
      Tako chauffeur, Opérateur, images/team/tako_chauffeur.png, co.triperz.chauffeur, id1185925940, http://www.tak-o.com/chauffeurs, yes, gratuit,
     Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes
