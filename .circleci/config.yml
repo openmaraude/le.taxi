@@ -16,7 +16,8 @@ jobs:
       - run:
           name: install python dependencies
           command: |
-              python -m venv venv
+              mkdir -p ./venv
+              virtualenv ./venv
               . venv/bin/activate
               pip install pelican webassets cssmin markdown
       - run: mkdir output
