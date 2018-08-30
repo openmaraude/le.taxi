@@ -2,9 +2,14 @@ version: 2.0
 jobs:
   build:
     docker:
-      - image: circleci/python:3.6.2-stretch-browsers
+      - image: circleci/python:2.7.15-stretch
     steps:
       - checkout
+      - run:
+          name: Install locales
+          command: |
+              sudo locale-gen fr_FR.UTF-8
+              sudo locale-gen fr fr_FR fr_FR.UTF-8
       - run:
           name: install python dependencies
           command: |
@@ -17,7 +22,7 @@ jobs:
           command: |
               . venv/bin/activate
               make html
-      - run: venv/bin/deactivate
+      - run: . venv/bin/deactivate
       - run: pip install -t lib -r requirements.txt
   deploy:
     filters:
