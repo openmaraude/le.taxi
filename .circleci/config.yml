@@ -27,7 +27,6 @@ jobs:
           command: |
               . venv/bin/activate
               make html
-      - run: deactivate
       - run: pip install -t lib -r requirements.txt
   deploy:
     filters:
