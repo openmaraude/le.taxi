@@ -5,7 +5,7 @@ jobs:
       - image: circleci/python:3.6.2-stretch-browsers
     steps:
       - checkout
-      command: |
+      - command: |
         mkdir -p ./venv
         virtualenv ./venv
         . venv/bin/activate
