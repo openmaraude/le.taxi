@@ -14,6 +14,7 @@ drivers: nom, type, logo, playstoreid, appstoreid, web, available, price, priced
      Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes,,
      Taxi Bleu du Midi, Opérateur, images/team/tbdm.png, , , http://www.taxibleudumidi.fr/, yes,,
      Taxi Lyonnais, Opérateur, images/team/TaxiLyonnais.png, , , https://www.tl.fr/, yes,,
+     Via Taxi, Opérateur, images/team/viataxi-lyon.png, , , http://www.viataxi.fr/, yes,,
      TaxiProxi, Opérateur, images/team/taxiproxi.png, com.desclick.taxiproxi, id510336055, , yes,,
      T.R.A.M Montpellier, Opérateur, images/team/tram.png, , , http://www.taxi-tram.fr/, yes,,
      UNT, Partenaire, images/team/unt.png, , , http://www.u-n-t.fr/, yes,,
