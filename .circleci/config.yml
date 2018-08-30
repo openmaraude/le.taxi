@@ -5,7 +5,11 @@ jobs:
       - image: circleci/python:3.6.2-stretch-browsers
     steps:
       - checkout
-      - run: pip install pelican webassets cssmin markdown
+      command: |
+        mkdir -p ./venv
+        virtualenv ./venv
+        . venv/bin/activate
+        pip install pelican webassets cssmin markdown
       - run: make html
       - run: pip install -t lib -r requirements.txt
   deploy:
