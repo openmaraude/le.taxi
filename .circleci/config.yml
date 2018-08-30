@@ -28,6 +28,12 @@ jobs:
               . venv/bin/activate
               make html
       - run: pip install -t lib -r requirements.txt
+      - run: mkdir -p /tmp/workspace
+      - run:
+          name: Copy pathes to be persisted in workspace
+          command: |
+              cp -R output /tmp/workspace
+              cp -R lib /tmp/workspace
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
