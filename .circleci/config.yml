@@ -11,6 +11,9 @@ jobs:
               sudo locale-gen fr_FR.UTF-8
               sudo locale-gen fr fr_FR fr_FR.UTF-8
       - run:
+          name: Install python-virtualenv
+          command: sudo apt-get install python-virtualenv
+      - run:
           name: install python dependencies
           command: |
               python -m venv venv
