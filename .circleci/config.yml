@@ -59,7 +59,7 @@ jobs:
       - run:
           name: Deploy to Google App Engine
           command: |
-              cp /tmp/workspace/* .
+              cp -R /tmp/workspace/* .
               gcloud -q app deploy app.yaml --promote
 workflows:
   version: 2
