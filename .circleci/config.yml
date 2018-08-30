@@ -6,10 +6,12 @@ jobs:
     steps:
       - checkout
       - run:
-        command: |
-          python -m venv venv
-          . venv/bin/activate
-          pip install pelican webassets cssmin markdown
+          name: install python dependencies
+          command: |
+              python -m venv venv
+              . venv/bin/activate
+              pip install pelican webassets cssmin markdown
+      - run: mkdir output
       - run: make html
       - run: venv/bin/deactivate
       - run: pip install -t lib -r requirements.txt
