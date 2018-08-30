@@ -6,7 +6,6 @@ CityPhoto: images/city/GRAND LYON.png
 Overlay: Ouverture Prochaine
 clients: nom, type, logo, playstoreid, appstoreid, web, available
     tedyCab, , images/team/tedycab.png, com.transdev.tedycab, id1084982482, , yes
-    Zaléou, , images/team/zaleou.png, biz.ixxi.opendatataxi, id1055739408, , yes
     Mon Appli Taxi, , images/team/montaxi.png, com.taxibleuservices.mytaxi, id953924194, , yes
     Taxiloc, , images/team/taxiloc.png, , id511899249, , yes
     Tako, , images/team/tako.png, com.triperz.tako_traveller, id1473625254, , yes
