@@ -4,8 +4,6 @@ jobs:
     docker:
       - image: circleci/python:2.7.15-stretch
     steps:
-      - attach_workspace:
-          at: /tmp/workspace
       - checkout
       - run:
           name: Install locales
@@ -30,11 +28,11 @@ jobs:
               . venv/bin/activate
               make html
       - run: pip install -t lib -r requirements.txt
-      - run:
-          name: Copy outputs to workspace
-          command: |
-              cp -R output /tmp/workspace
-              cp -R lib /tmp/workspace
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+              - output
+              - lib
   deploy:
     filters:
      branches:
