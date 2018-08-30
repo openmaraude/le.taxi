@@ -1,4 +1,3 @@
-# Config Translation Error
 version: 2.0
 jobs:
   build:
@@ -31,9 +30,11 @@ jobs:
 workflows:
   version: 2
   build-and-deploy:
-    jobs:
-      - build
-      - deploy:
-        requires:
-          - build
-
+   jobs:
+     - build
+     - deploy:
+       requires:
+         - build
+  build:
+   jobs:
+     - build
