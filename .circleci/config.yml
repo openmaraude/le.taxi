@@ -38,15 +38,15 @@ jobs:
     steps:
       - checkout
       - run:
-        name: Authenticate with Google Cloud
-        command: |
-          echo $CLIENT_SECRET > /home/circleci/.gcloud-key
-          gcloud auth activate-service-account --key-file=/home/circleci/.gcloud-key
+          name: Authenticate with Google Cloud
+          command: |
+              echo $CLIENT_SECRET > /home/circleci/.gcloud-key
+              gcloud auth activate-service-account --key-file=/home/circleci/.gcloud-key
       - run:
-        name: Deploy to Google App Engine
-        commmand: |
-          gcloud config set project $GCLOUD_PROJECT
-          gcloud -q app deploy app.yaml --promote
+          name: Deploy to Google App Engine
+          commmand: |
+              gcloud config set project $GCLOUD_PROJECT
+              gcloud -q app deploy app.yaml --promote
 workflows:
   version: 2
   build-and-deploy:
