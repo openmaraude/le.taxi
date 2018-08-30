@@ -2,7 +2,7 @@ version: 2.0
 jobs:
   build:
     docker:
-      - image: circleci/python:3.6.2-stretch-browsers
+      - image: circleci/python:2.7.15-stretch-browsers
     steps:
       - checkout
       - run:
@@ -17,7 +17,7 @@ jobs:
           command: |
               . venv/bin/activate
               make html
-      - run: venv/bin/deactivate
+      - run: . venv/bin/deactivate
       - run: pip install -t lib -r requirements.txt
   deploy:
     filters:
