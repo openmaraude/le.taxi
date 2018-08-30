@@ -1,0 +1,39 @@
+# Config Translation Error
+version: 2.0
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.6.2-stretch-browsers
+    steps:
+      - checkout
+      - run: pip install pelican webassets cssmin markdown
+      - run: make html
+      - run: pip install -t lib -r requirements.txt
+  deploy:
+    filters:
+     branches:
+       only:
+          - master
+    docker:
+      - image: google/cloud-sdk:alpine
+    steps:
+      - checkout
+      - run:
+        name: Authenticate with Google Cloud
+        command: |
+          echo $CLIENT_SECRET > /home/circleci/.gcloud-key
+          gcloud auth activate-service-account --key-file=/home/circleci/.gcloud-key
+      - run:
+        name: Deploy to Google App Engine
+        commmand: |
+          gcloud config set project $GCLOUD_PROJECT
+          gcloud -q app deploy app.yaml --promote
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+        requires:
+          - build
+
