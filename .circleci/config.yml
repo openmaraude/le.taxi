@@ -28,6 +28,7 @@ jobs:
               . venv/bin/activate
               make html
       - run: pip install -t lib -r requirements.txt
+      - run: mkdir -p workspace
       - persist_to_workspace:
           root: /tmp/workspace
           paths:
