@@ -12,7 +12,11 @@ jobs:
               . venv/bin/activate
               pip install pelican webassets cssmin markdown
       - run: mkdir output
-      - run: make html
+      - run:
+          name: make html
+          command: |
+              . venv/bin/activate
+              make html
       - run: venv/bin/deactivate
       - run: pip install -t lib -r requirements.txt
   deploy:
