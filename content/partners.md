@@ -8,11 +8,12 @@ clients: nom, type, logo, playstoreid, appstoreid, web, available, price, priced
      Taxiloc, , images/team/taxiloc.png, com.deveryware.tram.taxiloc.client, id511899249, , yes, gratuit,
      Tako, , images/team/tako_new.png, co.triperz.android, id1052233930, http://www.tak-o.com, yes, gratuit,
      Paris Taxis v2.0, , images/team/paristaxis.png, com.appspanel.taxiparis, id756914088, , yes, gratuit,
-     Optimod'Lyon, ,images/team/optymod.png, fr.cityway.android_v3.optymod, , , yes
+     Optimod'Lyon, ,images/team/optymod.png, fr.cityway.android_v3.optymod, , , yes, gratuit,
 drivers: nom, type, logo, playstoreid, appstoreid, web, available, price, pricedetails
      Axygest, Équipementier, images/team/axygest.png, , , http://www.axygest.fr/, yes,,
      Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes,,
      Taxi Bleu du Midi, Opérateur, images/team/tbdm.png, , , http://www.taxibleudumidi.fr/, yes,,
+     Taxi Lyonnais, Opérateur, images/team/TaxiLyonnais.png, , , https://www.tl.fr/, yes,,
      TaxiProxi, Opérateur, images/team/taxiproxi.png, com.desclick.taxiproxi, id510336055, , yes,,
      T.R.A.M Montpellier, Opérateur, images/team/tram.png, , , http://www.taxi-tram.fr/, yes,,
      UNT, Partenaire, images/team/unt.png, , , http://www.u-n-t.fr/, yes,,
