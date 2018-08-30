@@ -34,17 +34,15 @@
 
 {% block content %}
           <a name="pcontent"></a>
-
-
-   <!-- Section: who_client -->
-    <section id="who" class="home-section text-center">
-        <div class="heading-about">
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="wow bounceInDown" data-wow-delay="0.4s">
-                    <div class="section-heading">
-                    <h2>Pour les clients</h2>
+    <!-- Section: who_taxi -->
+     <section id="who" class="home-section text-center">
+         <div class="heading-about">
+             <div class="container">
+             <div class="row">
+                 <div class="col-lg-8 col-lg-offset-2">
+                     <div class="wow bounceInDown" data-wow-delay="0.4s">
+                     <div class="section-heading">
+                     <h2>Pour les clients</h2>
                     <i class="fa fa-2x fa-angle-down"></i>
                     </div>
                     </div>
@@ -60,61 +58,58 @@
         </div>
         <div class="row">
 
-      </div>
-      </div>
-
- {% for nm, item in page.clients|dictsort(false, by='key') %}
-           <div class="col-xs-6 col-sm-3 col-md-3">
-                 <div class="wow bounceInUp" data-wow-delay="0.{{ loop.index0 % 4 }}s">
-                   <div class="team boxed-grey">
-                       <div class="inner">
+  {% for nm, item in page.clients|dictsort(false, by='key') %}
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                  <div class="wow bounceInUp" data-wow-delay="0.{{ loop.index0 % 4 }}s">
+                    <div class="team boxed-grey">
+                        <div class="inner">
     {% if item.price != "" %}
-                          <div class="ribbon"><span>{{item.price|e}}</span></div>
+                           <div class="ribbon"><span>{{item.price|e}}</span></div>
     {% endif %}
-                           <h5>{{item.nom|e}}</h5>
+                            <h5>{{item.nom|e}}</h5>
     {% if item.type != "" %}
-                           <p class="subtitle">{{item.type|e}}</p>
+                            <p class="subtitle">{{item.type|e}}</p>
     {% endif %}
-                           <div class="avatar"><img src="{{ SITEURL }}/{{item.logo|e}}" alt="" class="img-responsive img-circle" /></div>
-                       </div>
-   {% if item.playstoreid != "" and item.available == "yes" %}
-                       <a href="https://play.google.com/store/apps/details?id={{item.playstoreid|e}}"><img alt="Get it on GooglePlay" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
-   {% endif %}
-   {% if item.appstoreid != "" and item.available == "yes" %}
-                       <a href="https://itunes.apple.com/fr/app/{{item.appstoreid|e}}?mt=8"><img alt="Download on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a>
-   {% endif %}
-   {% if item.web != "" and item.available == "yes" %}
-                        <a href="{{ item.web }}" class="button grey">
+                            <div class="avatar"><img src="{{ SITEURL }}/{{item.logo|e}}" alt="" class="img-responsive img-circle" /></div>
+                        </div>
+    {% if item.playstoreid != "" and item.available == "yes" %}
+                        <a href="https://play.google.com/store/apps/details?id={{item.playstoreid|e}}"><img alt="Get it on GooglePlay"   src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/fr-play-badge.png" /></a>
+    {% endif %}
+    {% if item.appstoreid != "" and item.available == "yes" %}
+                        <a href="https://itunes.apple.com/fr/app/{{item.appstoreid|e}}?mt=8"><img alt="Download on Appstore" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/badges/download_appstore.svg"></a>
+    {% endif %}
+    {% if item.web != "" and item.available == "yes" %}
+                         <a href="{{ item.web }}" class="button grey">
                            <span><i class="fa fa-chevron-circle-right"></i></span>web</a>
-   {% endif %}
-   {% if (item.playstoreid == "" and item.appstoreid == "" and item.web == "") or item.available != "yes" %}
-                       <p class="subtitle">Bientôt disponible</p>
-   {% endif %}
-   {% if item.pricedetails != "" %}
-                       <p class="subtitle">{{item.pricedetails|e}}</p>
-   {% endif %}
-
-                   </div>
-                   </div>
-             </div>
-   {% if loop.index is divisibleby 4 %}
-         </div>
-         <div class="row">
-              <div class="col-lg-2 col-lg-offset-5">
-                  <hr class="marginbot-50">
+    {% endif %}
+    {% if (item.playstoreid == "" and item.appstoreid == "" and item.web == "") or item.available != "yes" %}
+                        <p class="subtitle">Bientôt compatible</p>
+    {% endif %}
+    {% if item.pricedetails != "" %}
+                        <p class="subtitle">{{item.pricedetails|e}}</p>
+    {% endif %}
+                    </div>
+                    </div>
               </div>
-         </div>
-         <div class="row">
-   {% else %}
-     {% if loop.index is divisibleby 2 %}
-           <div class="clearfix visible-xs-block"></div>
+    {% if loop.index is divisibleby 4 %}
+          </div>
+          <div class="row">
+               <div class="col-lg-2 col-lg-offset-5">
+                   <hr class="marginbot-50">
+               </div>
+          </div>
+          <div class="row">
+    {% else %}
+      {% if loop.index is divisibleby 2 %}
+            <div class="clearfix visible-xs-block"></div>
      {% endif %}
-   {% endif %}
- {% endfor %}
+    {% endif %}
+  {% endfor %}
 
-
+         </div>
+      </div>
     </section>
-
+    <!-- /Section: who -->
 
     <!-- Section: who_taxi -->
      <section id="who_taxi" class="home-section text-center">
