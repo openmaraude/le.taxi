@@ -28,6 +28,11 @@ jobs:
               . venv/bin/activate
               make html
       - run: pip install -t lib -r requirements.txt
+      - persist_to_workspace:
+          root: /tmp/workspace
+          paths:
+              - output
+              - lib
   deploy:
     filters:
      branches:
@@ -36,6 +41,8 @@ jobs:
     docker:
       - image: google/cloud-sdk:alpine
     steps:
+      - attach_workspace:
+          at: /tmp/workspace
       - checkout
       - run:
           name: Authenticate with Google Cloud
@@ -46,6 +53,7 @@ jobs:
       - run:
           name: Deploy to Google App Engine
           command: |
+              cp /tmp/workspace/* .
               gcloud -q app deploy app.yaml --promote
 workflows:
   version: 2
