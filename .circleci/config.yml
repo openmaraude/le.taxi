@@ -44,7 +44,7 @@ jobs:
               gcloud auth activate-service-account --key-file=/home/circleci/.gcloud-key
       - run:
           name: Deploy to Google App Engine
-          commmand: |
+          command: |
               gcloud config set project $GCLOUD_PROJECT
               gcloud -q app deploy app.yaml --promote
 workflows:
