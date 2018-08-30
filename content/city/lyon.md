@@ -20,12 +20,12 @@ drivers: nom, type, logo, playstoreid, appstoreid, web, available
     Taxiloc, Opérateur, images/team/taxilocdriver.png, com.deveryware.tram.taxiloc.driver, id616634162, , yes
     Offwigo, Opérateur, images/team/offwigo.png, com.offwigo.driver, id974014632, , yes
     FNAT, Opérateur, images/team/fnat.png, com.deveryware.tram.taxiloc.driver.fnat, id1115197992, , yes
+    Taxi Lyonnais, Opérateur, images/team/TaxiLyonnais.png, , , https://www.tl.fr/, yes
+    Via Taxi, Opérateur, images/team/viataxi-lyon.png, , , http://www.viataxi.fr/, yes
     Taxis Connect, Opérateur, images/team/taxisconnect.png, com.taxisconnect.driver, id730972682, , no
     Axygest, Équipementier, images/team/axygest.png, , , http://www.axygest.fr/, yes
     Taxi Radio, Opérateur, images/team/taxi-radio-lyon.png, , , http://www.taxilyon.com/, no
     Allo Taxi, Opérateur, images/team/allo-taxi-lyon.png, , , http://www.allotaxi.fr/, no
-    Via Taxi, Opérateur, images/team/viataxi-lyon.png, , , http://www.viataxi.fr/, no
-    Taxi Lyonnais, Opérateur, images/team/taxi-lyonnais.png, , , https://www.taxilyonnais.com/, no
     Joe, Opérateur, images/team/joe.png, , , http://www.joeletaxi.fr/, no
 
 
