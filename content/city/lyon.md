@@ -1,8 +1,8 @@
 Title: Lyon
 Description: Plate-forme nationale de mise en relation client / taxi
 Template: city
-CityName: Lyon
-CityPhoto: images/city/lyon.jpg
+CityName: Métropole de Lyon
+CityPhoto: images/city/GRAND LYON.png
 Overlay: Ouverture Prochaine
 clients: nom, type, logo, playstoreid, appstoreid, web, available
     tedyCab, , images/team/tedycab.png, com.transdev.tedycab, id1084982482, , yes
