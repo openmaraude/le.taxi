@@ -22,5 +22,5 @@ drivers: nom, type, logo, playstoreid, appstoreid, web, available, price, priced
      Taxis Rennais, Centrale, images/team/taxisrennais.png, , , http://www.taxisrennais.fr/, yes,,sans surcoût pour le chauffeur
      Abeilles Taxis La Rochelle, Centrale, images/team/abeilles-taxis-la-rochelle.png, , , http://www.taxi-la-rochelle.com/, yes,,sans surcoût pour le chauffeur
      Tako chauffeur, Application, images/team/tako_chauffeur.png, co.triperz.chauffeur, id1185925940, http://www.tak-o.com/chauffeurs, yes, gratuit,
-     DOKO, Application, images/team/dokodriver.png, city.doko.driver, id1213032489, http://www.doko.city, yes,payant,14.95€/mois
+     DOKO, Application, images/team/dokodriver.png, city.doko.driver, id1213032489, http://www.doko.city, yes,,14.95€/mois
 
