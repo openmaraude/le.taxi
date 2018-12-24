@@ -18,9 +18,9 @@ drivers: nom, type, logo, playstoreid, appstoreid, web, available, price, priced
      Taxiloc, Application, images/team/taxilocdriver.png, com.deveryware.tram.taxiloc.driver, id616634162, , yes, gratuit,
      Les Taxis Marseillais, Centrale, images/team/taxis-marseillais.png, , , http://lestaxismarseillais.fr/, yes,gratuit,
      Atlantis Taxis, Centrale, images/team/atlantis.png, , , http://www.atlantistaxis.net/, yes,gratuit,
-     G7, Centrale, images/team/g7.png, , , https://www.g7.fr/chauffeur-g7-taxi, yes,payant pour le chauffeur,
+     G7, Centrale, images/team/g7.png, , , https://www.g7.fr/chauffeur-g7-taxi, yes,payant,*abonnement à la charge du chauffeur*
      Taxis Rennais, Centrale, images/team/taxisrennais.png, , , http://www.taxisrennais.fr/, yes,gratuit,
      Abeilles Taxis La Rochelle, Centrale, images/team/abeilles-taxis-la-rochelle.png, , , http://www.taxi-la-rochelle.com/, yes,gratuit,
      Tako chauffeur, Application, images/team/tako_chauffeur.png, co.triperz.chauffeur, id1185925940, http://www.tak-o.com/chauffeurs, yes, gratuit,
-     DOKO, Application, images/team/dokodriver.png, city.doko.driver, id1213032489, http://www.doko.city, yes,gratuit, *pendant 3 mois*
+     DOKO, Application, images/team/dokodriver.png, city.doko.driver, id1213032489, http://www.doko.city, yes,payant,14.95€/mois
 
