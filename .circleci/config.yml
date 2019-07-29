@@ -5,6 +5,7 @@ jobs:
       - image: circleci/python:2.7.15-stretch
     steps:
       - checkout
+      - run: apt-get update
       - run:
           name: Install locales
           command: |
