@@ -9,10 +9,10 @@ clients: nom, type, logo, playstoreid, appstoreid, web, available
     Zaléou, , images/team/zaleou.png, biz.ixxi.opendatataxi, id1055739408, , yes
     Mon Appli Taxi, , images/team/montaxi.png, com.taxibleuservices.mytaxi, id953924194, , yes
     Taxiloc, , images/team/taxiloc.png, , id511899249, , yes
-    Tako, , images/team/tako.png, co.triperz.android, id1052233930, , yes
+    Tako, , images/team/tako.png, com.triperz.tako_traveller, id1473625254, , yes
     Optimod'Lyon, ,images/team/optymod.png, fr.cityway.android_v3.optymod, , , yes
 drivers: nom, type, logo, playstoreid, appstoreid, web, available
-     Tako chauffeur, Opérateur, images/team/tako_chauffeur.png, co.triperz.chauffeur, id1185925940, http://www.tak-o.com/chauffeurs, yes, gratuit,
+     Tako chauffeur, Opérateur, images/team/tako_chauffeur.png, com.triperz.tako_driver, id1473625302, http://www.tak-o.com/chauffeurs, yes, gratuit,
     Mon Appli Taxi, Opérateur, images/team/montaxichauffeur.png, com.taxibleuservices.mytaxicorp, id954025129, , yes
     TaxiProxi, Opérateur, images/team/taxiproxi.png, com.desclick.taxiproxi, id510336055, , yes
     UNT, Partenaire, images/team/unt.png, , , http://www.u-n-t.fr/, yes
