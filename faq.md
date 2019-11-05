@@ -1,5 +1,5 @@
 ---
-layout: one-section
+layout: documentation
 title: Foire aux questions
 ---
 
