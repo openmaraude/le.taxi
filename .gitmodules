@@ -1,3 +1,0 @@
-[submodule "letsencrypt"]
-	path = letsencrypt
-	url = https://github.com/AirConsole/letsencrypt
