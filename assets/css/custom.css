@@ -103,3 +103,8 @@ img {
 .press {
     margin-bottom: 8vh;
 }
+
+.large-container {
+    max-width: initial;
+    width: 95%;
+}

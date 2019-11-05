@@ -46,8 +46,10 @@ subtitle: Le taxi se modernise. Profitez-en !
 <section class="section section-grey">
     <div class="container">
         <h2>Pourquoi le taxi ?</h2>
+    </div>
+    <div class="container large-container">
         <div class="cards">
-            <div class="row">
+            <div class="row row-large row-wrapped">
                 <div class="card">
                     <div class="card__cover card__cover-white card__cover-small">
                         <img src="/assets/images/clients_page/good_reason_1.svg">
@@ -93,7 +95,7 @@ subtitle: Le taxi se modernise. Profitez-en !
         <h2>Comment faire pour en profiter ?</h2>
         <p>Utilisez l'un des services agréés par l'Etat</p>
         <div class="cards">
-            <div class="row row-wrapped">
+            <div class="row row-large row-wrapped">
             {% for id_app in site.data.clients %}
                 {% include application.html id_app=id_app type="applications/clients" %}
             {% endfor %}
