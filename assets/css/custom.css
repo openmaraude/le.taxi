@@ -1,3 +1,7 @@
+.hero__container {
+    min-height: 12em;
+}
+
 .video__container {
     display: flex;
     justify-content: center;
