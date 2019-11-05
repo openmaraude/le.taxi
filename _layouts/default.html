@@ -4,7 +4,7 @@
   <body>
     {%- include header.html %}
     {%- if page.title %}
-    <div class="hero__container">
+    <div class="hero__container{% if page.banner_style %} {{ page.banner_style }}{%- endif %}">
       {%- if page.banner_image %}
       <img src="/assets/images/{{ page.banner_image }}">
       {%- endif %}

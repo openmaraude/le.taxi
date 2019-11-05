@@ -2,6 +2,26 @@
     min-height: 12em;
 }
 
+.index-hero {
+    background-image: url("/assets/images/banner.jpg");
+    width: 100%;
+    max-width: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 66vh;
+}
+
+@media (min-width: 800px) {
+    .index-hero {
+        background-position: 0 -150px;
+    }
+}
+
+.index-hero h1 {
+    color: #fff;
+    text-shadow: -1px 1px 1px #555;
+}
+
 .video__container {
     display: flex;
     justify-content: center;
