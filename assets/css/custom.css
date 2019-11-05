@@ -67,6 +67,7 @@ video {
 
 img {
     max-height: 70vh;
+    max-width: 100%;
 }
 
 .press img {
