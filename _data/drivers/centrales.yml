@@ -1,0 +1,32 @@
+abeilles-taxis-la-rochelle:
+  name: Abeilles Taxis La Rochelle
+  site: http://www.taxi-la-rochelle.com/
+  price: free
+atlantis:
+  name: Atlantis Taxis
+  site: http://www.atlantistaxis.net/
+  price: free
+g7:
+  name: G7
+  site: https://www.g7.fr/chauffeur-g7-taxi
+  price: "30€/mois à la charge du chauffeur"
+taxi-lyonnais:
+  name: Taxi Lyonnais
+  site: https://www.tl.fr/
+  price: free
+taxis-marseillais:
+  name: Les Taxis Marseillais
+  site: http://lestaxismarseillais.fr/
+  price: free
+taxis-rennais:
+  name: Taxis Rennais
+  site: http://www.taxisrennais.fr/
+  price: free
+tbdm:
+  name: Taxi Bleu du Midi
+  site: http://www.taxibleudumidi.fr/
+  price: free
+viataxi-lyon:
+  name: Via Taxi
+  site: http://www.viataxi.fr/
+  price: free

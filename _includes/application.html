@@ -1,0 +1,31 @@
+{% assign id = include.id_app[0] %}
+{% assign app = include.id_app[1] %}
+
+<div class="card">
+    <div class="card__cover card__cover-white card__cover-small">
+        <img src="/assets/images/{{ include.type }}/{{id}}.png">
+    </div>
+    <div class="card__content">
+        {% if include.display_type %}<p>{{ include.display_type }}</p>{% endif %}
+        <h3> {{ app.name }} {{ app.id }} </h3>
+        <p>
+            {% if app.price == "free" %}
+                sans surcoût pour le chauffeur
+            {% else %}
+                {{ app.price }}
+            {% endif %}
+            {{ app.description }}
+        </p>
+    </div>
+    <div class="card__extra">
+        {% if app.android %}
+        <a href="{{ app.android }}"><img src="/assets/images/fr-play-badge.png"></a>
+        {% endif %}
+        {% if app.ios %}
+        <a href="{{ app.ios }}"><img src="/assets/images/download_appstore.svg"></a>
+        {% endif %}
+        {% if app.site %}
+        <a href="{{ app.site }}" class="button-outline large secondary">Site</a>
+        {% endif %}
+    </div>
+</div>
