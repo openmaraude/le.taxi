@@ -12,7 +12,7 @@ subtitle: Le taxi se modernise. Profitez-en !
                 <p> Illustration non contractuelle. </p>
             </div>
             <div class="cards">
-                <div class="row row-mini">
+                <div class="row row-mini row-wrapped">
                     <div class="card">
                         <div class="card__content">
                             <h3>Pratique</h3>
@@ -93,7 +93,7 @@ subtitle: Le taxi se modernise. Profitez-en !
         <h2>Comment faire pour en profiter ?</h2>
         <p>Utilisez l'un des services agréés par l'Etat</p>
         <div class="cards">
-            <div class="row">
+            <div class="row row-wrapped">
             {% for id_app in site.data.clients %}
                 {% include application.html id_app=id_app type="applications/clients" %}
             {% endfor %}

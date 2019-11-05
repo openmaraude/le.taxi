@@ -25,13 +25,17 @@ video {
 }
 
 .row {
-    flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.row-wrapped {
+    flex-wrap: wrap;
 }
 
 .row-mini {
     max-width: 30em;
 }
+
 .row-mini .card + .card {
     margin-left: initial;
 }

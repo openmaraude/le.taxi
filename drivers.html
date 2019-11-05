@@ -12,7 +12,7 @@ subtitle: Vos clients pourront vous héler depuis leur smartphone
                 <p> Vidéo non contractuelle. </p>
             </div>
             <div class="cards">
-                <div class="row row-mini">
+                <div class="row row-mini row-wrapped">
                     <div class="card">
                         <div class="card__content">
                             <h3>Gratuit</h3>
@@ -104,7 +104,7 @@ subtitle: Vos clients pourront vous héler depuis leur smartphone
         <h2>Comment rejoindre Le.Taxi ?</h2>
         <p>Téléchargez une des applications agréées...</p>
         <div class="cards">
-            <div class="row">
+            <div class="row row-wrapped">
             {% for id_app in site.data.drivers.applications %}
             {% include application.html id_app=id_app type="applications/drivers" %}
             {% endfor %}
@@ -124,7 +124,7 @@ subtitle: Vos clients pourront vous héler depuis leur smartphone
     <div class="container">
         <h2>Ou adressez-vous à votre centrale si elle est partenaire Le.Taxi</h2>
         <div class="cards">
-            <div class="row row-large">
+            <div class="row row-large row-wrapped">
                 {% for id_centrale in site.data.drivers.centrales %}
                 {% include application.html id_app=id_centrale type="centrales" %}
                 {% endfor %}
