@@ -119,6 +119,8 @@ img {
 
 @media(max-width: 450px) {
     .cards .row .card {
-        margin-left: initial;
+        margin-left: 0;
+        min-width: 15em;
+        max-width: 15em;
     }
 }
