@@ -6,6 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@master
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
@@ -14,6 +15,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@master
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
