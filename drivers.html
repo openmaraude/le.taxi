@@ -12,7 +12,7 @@ subtitle: Vos clients pourront vous héler depuis leur smartphone
                 <p> Vidéo non contractuelle. </p>
             </div>
             <div class="cards">
-                <div class="row row-mini row-wrapped">
+                <div class="column">
                     <div class="card">
                         <div class="card__content">
                             <h3>Gratuit</h3>
@@ -48,9 +48,9 @@ subtitle: Vos clients pourront vous héler depuis leur smartphone
         <h2>5 bonnes raisons de rejoindre le registre</h2>
         <p>Le.Taxi n’est pas une application. C’est un registre numérique mis à disposition gratuitement par l’Etat qui permet à des applications partenaires de proposer des taxis à leur clientèle.</p>
     </div>
-    <div class="container large-container">
+    <div class="container">
         <div class="cards">
-            <div class="row row-large row-wrapped">
+            <div class="row">
                 <div class="card">
                     <div class="card__cover card__cover-white card__cover-small">
                         <img src="/assets/images/drivers_page/good_reason_1.png">
@@ -106,7 +106,7 @@ subtitle: Vos clients pourront vous héler depuis leur smartphone
         <h2>Comment rejoindre Le.Taxi ?</h2>
         <p>Téléchargez une des applications agréées...</p>
         <div class="cards">
-            <div class="row row-wrapped">
+            <div class="row">
             {% for id_app in site.data.drivers.applications %}
             {% include application.html id_app=id_app type="applications/drivers" %}
             {% endfor %}
@@ -117,16 +117,14 @@ subtitle: Vos clients pourront vous héler depuis leur smartphone
 <section class="section">
     <div class="container">
         <h2>..Puis, suivez le guide !</h2>
-        <div class="row">
-            <iframe width=71% height="315px" src="https://www.youtube.com/embed/-tCs9CJLB0M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
+        <iframe width=71% height="315px" src="https://www.youtube.com/embed/-tCs9CJLB0M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
     </div>
 </section>
 <section class="section">
     <div class="container">
         <h2>Ou adressez-vous à votre centrale si elle est partenaire Le.Taxi</h2>
         <div class="cards">
-            <div class="row row-large row-wrapped">
+            <div class="row">
                 {% for id_centrale in site.data.drivers.centrales %}
                 {% include application.html id_app=id_centrale type="centrales" %}
                 {% endfor %}

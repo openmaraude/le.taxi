@@ -34,8 +34,8 @@ video {
 }
 
 .card {
-    min-width: 20em;
     max-width: 25em;
+    min-width: 25em;
     margin-top: var(--space-l)
 }
 
@@ -47,33 +47,6 @@ video {
     width: initial;
     height: 80%;
 }
-
-.row {
-    justify-content: space-around;
-}
-
-.row-wrapped {
-    flex-wrap: wrap;
-}
-
-.row-mini {
-    max-width: 30em;
-}
-
-.row-mini .card + .card {
-    margin-left: initial;
-}
-
-@media (min-width: 800px) {
-    .row-large .card {
-        max-width: 27%;
-    }
-}
-
-.row-large .card + .card {
-    margin-left: initial;
-}
-
 
 .card__extra img {
     height: 8vh;
@@ -107,4 +80,45 @@ img {
 .large-container {
     max-width: initial;
     width: 95%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column .card + .card {
+    margin-left: initial;
+}
+
+@media(max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 800px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row .card + .card {
+        margin-left: initial;
+    }
+}
+
+.cards .row {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards .row .card {
+    margin-left: var(--space-m);
+}
+
+@media(max-width: 450px) {
+    .cards .row .card {
+        margin-left: initial;
+    }
 }

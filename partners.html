@@ -20,7 +20,7 @@ title: Partenaires
     <div class="container">
         <h1>Pour les chauffeurs</h1>
         <div class="cards">
-            <div class="row row-large row-wrapped">
+            <div class="row">
             {% for id_app in site.data.drivers.applications %}
                 {% include application.html id_app=id_app type="applications/drivers" display_type="Application" %}
             {% endfor %}
