@@ -1,0 +1,145 @@
+---
+layout: default
+title: Chauffeurs, rejoignez le registre 100% dédié aux taxis !
+subtitle: Vos clients pourront vous héler depuis leur smartphone
+---
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div>
+                <video src="/assets/videos/site_web_drivers.mp4" autoplay playsinline muted loop> </video>
+                <p> Vidéo non contractuelle. </p>
+            </div>
+            <div class="cards">
+                <div class="column">
+                    <div class="card">
+                        <div class="card__content">
+                            <h3>Gratuit</h3>
+                            <p>
+                                L'inscription au registre est gratuite. Certaines des applications agréées ne vous coûtent rien !
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__content">
+                            <h3>Sans engagement</h3>
+                            <p>
+                            Vous pouvez désactiver votre référencement quand vous le souhaitez.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__content">
+                            <h3>0 frais d'approche</h3>
+                            <p>
+                            Votre compteur reste à 0€ avant la prise en charge du client
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-grey">
+    <div class="container">
+        <h2>5 bonnes raisons de rejoindre le registre</h2>
+        <p>Le.Taxi n’est pas une application. C’est un registre numérique mis à disposition gratuitement par l’Etat qui permet à des applications partenaires de proposer des taxis à leur clientèle.</p>
+    </div>
+    <div class="container">
+        <div class="cards">
+            <div class="row">
+                <div class="card">
+                    <div class="card__cover card__cover-white card__cover-small">
+                        <img src="/assets/images/drivers_page/good_reason_1.png">
+                    </div>
+                    <div class="card__content">
+                        <h3>Augmentez votre nombre de course</h3>
+                        <p>Obtenez des courses supplémentaires depuis votre smartphone en prenant en charge des clients à proximité, sans frais d’approche.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__cover card__cover-white card__cover-small">
+                        <img src="/assets/images/drivers_page/good_reason_2.png">
+                    </div>
+                    <div class="card__content">
+                        <h3>Profitez d’un paiement simplifié</h3>
+                        <p>Les clients vous payent au choix directement en espèces/CB, sans commission, ou par mobile ou SMS.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__cover card__cover-white card__cover-small">
+                        <img src="/assets/images/drivers_page/good_reason_3.png">
+                    </div>
+                    <div class="card__content">
+                        <h3>Améliorez la satisfaction de vos clients</h3>
+                        <p>Les clients peuvent héler un taxi qui arrive à 0€ au compteur grâce à leur smartphone, et même noter la course.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__cover card__cover-white card__cover-small">
+                        <img src="/assets/images/drivers_page/good_reason_4.png">
+                    </div>
+                    <div class="card__content">
+                        <h3>Assurez-vous contre les clients indélicats</h3>
+                        <p>Le numéro de téléphone des clients est vérifié, et en cas de client indélicat, vous avez la possibilité de le signaler.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__cover card__cover-white card__cover-small">
+                        <img src="/assets/images/drivers_page/good_reason_5.png">
+                    </div>
+                    <div class="card__content">
+                        <h3>Affirmez votre indépendance</h3>
+                        <p>Compatible avec tous les statuts, c’est sans abonnement et sans obligation : vous décidez d’être visible ou non.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2>Comment rejoindre Le.Taxi ?</h2>
+        <p>Téléchargez une des applications agréées...</p>
+        <div class="cards">
+            <div class="row">
+            {% for id_app in site.data.drivers.applications %}
+            {% include application.html id_app=id_app type="applications/drivers" %}
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <h2>..Puis, suivez le guide !</h2>
+        <iframe width=71% height="315px" src="https://www.youtube.com/embed/-tCs9CJLB0M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <h2>Ou adressez-vous à votre centrale si elle est partenaire Le.Taxi</h2>
+        <div class="cards">
+            <div class="row">
+                {% for id_centrale in site.data.drivers.centrales %}
+                {% include application.html id_app=id_centrale type="centrales" %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-grey">
+    <div class="container">
+        <h2>Téléchargez le livret d'information chauffeur Le.Taxi !</h2>
+        <div class="row">
+            <a href="/assets/documents/Livret Chauffeurs Le.Taxi v2.pdf">
+                <img src="/assets/images/booklet_cover.png">
+            </a>
+        </div>
+    </div>
+</section>

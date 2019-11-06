@@ -1,0 +1,36 @@
+---
+layout: default
+title: Partenaires
+---
+
+<section class="section">
+    <div class="container">
+        <h1>Pour les clients</h1>
+        <div class="cards">
+            <div class="row row-large row-wrapped">
+            {% for id_app in site.data.clients %}
+                {% include application.html id_app=id_app type="applications/clients" %}
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h1>Pour les chauffeurs</h1>
+        <div class="cards">
+            <div class="row">
+            {% for id_app in site.data.drivers.applications %}
+                {% include application.html id_app=id_app type="applications/drivers" display_type="Application" %}
+            {% endfor %}
+            {% for id_app in site.data.drivers.centrales %}
+                {% include application.html id_app=id_app type="centrales" display_type="Centrale" %}
+            {% endfor %}
+            {% for id_app in site.data.drivers.equipementiers %}
+                {% include application.html id_app=id_app type="equipementiers" display_type="Équipementier" %}
+            {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

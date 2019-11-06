@@ -1,8 +1,6 @@
-*~
-*.py[cod]
-.DS_Store
-*.pid
-output
-pelican
-le.taxi
-
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+.vscode
