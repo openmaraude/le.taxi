@@ -36,7 +36,7 @@ Lorsqu’il reçoit une demande de course sur son équipement agréé, le chauff
 
 Si le chauffeur ne répond pas sous 30 secondes, le client reçoit une notification de “délai de réponse dépassé” et un autre taxi à proximité peut être contacté.
 
-> En maraude électronique comme en maraude physique, la prise en charge de tout client hélant un taxi électroniquement est obligatoire.  Cependant afin de tenir compte de la réalité de l’activité d’un taxi (planning de réservation, clientèle personnelle, temps de pause,…) le chauffeur n'est pas sanctionné s'il est en mesure de justifier un refus de charge.
+> En maraude électronique comme en maraude physique, la prise en charge de tout client hélant un taxi électroniquement est obligatoire.  Cependant afin de tenir compte de la réalité de l’activité d’un taxi (planning de réservation, clientèle personnelle, temps de pause,…) le chauffeur n’est pas sanctionné s’il est en mesure de justifier un refus de charge.
 {: .text-quote }
 
 ### Confirmation de la course
@@ -47,7 +47,7 @@ Lorsque le chauffeur choisit d’accepter la course, le client reçoit une notif
 
 Une fois la demande de course acceptée par le chauffeur et confirmée par le client, le chauffeur peut se mettre en route vers l’adresse indiquée afin de prendre en charge le client. Cette approche se fait **sans frais**. Le client est toujours proche (aujourd’hui à moins de 500m, la nuit à moins de 1km).
 
-> Le chauffeur ne peut pas facturer les frais d'approches en maraude électronique tout comme en maraude physique. Cependant, seul les taxis les plus proches du client sont sollicités à la commande d'une course. Plus il y aura de taxis géolocalisés sur le registre, moins la distance moyenne à parcourir pour atteindre le client sera importante.
+> Le chauffeur ne peut pas facturer les frais d’approches en maraude électronique tout comme en maraude physique. Cependant, seul les taxis les plus proches du client sont sollicités à la commande d’une course. Plus il y aura de taxis géolocalisés sur le registre, moins la distance moyenne à parcourir pour atteindre le client sera importante.
 {: .text-quote }
 
 [![rayon](/assets/images/rayon.jpg)](/assets/images/rayon.jpg)
@@ -63,7 +63,7 @@ En cas de client indélicat ou absent, le chauffeur peut signaler le client via 
 
 ### Fin de la course et paiement
 
-Le registre Le.Taxi ne gère pas le paiement. Aucune transaction monétaire ne transite par la plateforme. Le client vous paie donc selon le prix affiché au compteur, en espèces ou en carte bleue. (Certains partenaires agréés offrent la possibilité d'un paiement électronique, tout en laissant le compteur déterminer le prix de la course.)
+Le registre Le.Taxi ne gère pas le paiement. Aucune transaction monétaire ne transite par la plateforme. Le client vous paie donc selon le prix affiché au compteur, en espèces ou en carte bleue. (Certains partenaires agréés offrent la possibilité d’un paiement électronique, tout en laissant le compteur déterminer le prix de la course.)
 
 ### Evaluation de la course
 

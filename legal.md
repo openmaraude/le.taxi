@@ -17,13 +17,19 @@ Marc Papinutti, le directeur
 
 # Respect de la vie privée
 
-## Analyse d'audience
+## Analyse d’audience
 
-Nous n'effectuons pas d'analyse d'audience
+Nous n’effectuons pas d’analyse d’audience
 
 ## Données personnelles
 
-Nous n'effectuons pas de collecte de données personnelles pour ce site, pour l'api se référer à [cette page](/data.html).
+Nous utilisons [Matomo](https://fr.matomo.org) afin de suivre d’audience sur le site.
+
+Nous suivons les recommandations [CNIL](https://www.cnil.fr/fr/solutions-pour-les-cookies-de-mesure-daudience), d’où l’absence de bannière de consentement.
+
+Vous pouvez consulter les statistiques [ici](https://stats.data.gouv.fr/index.php?module=CoreHome&action=index&idSite=18&period=range&date=previous30&updated=1#?idSite=18&period=range&date=previous30&segment=&category=Dashboard_Dashboard&subcategory=1).
+
+Pour l’api se référer à [cette page](/data.html).
 
 # Propriété intellectuelle
 
