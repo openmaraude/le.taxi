@@ -5,7 +5,7 @@ le-monde:
   publication: Le Monde
   date: 04 octobre 2016
 liberation:
-  title: "Combien d'étoiles pour votre taxi ?"
+  title: "Combien d’étoiles pour votre taxi ?"
   extract: "Plus étonnant : ce sont les services publics qui ont mis en place ce système opérationnel dès mardi à Montpellier."
   type: article
   author: Richard Poirot
@@ -20,7 +20,7 @@ tf1:
   video: http://lci.tf1.fr/jt-we/videos/2015/taxis-un-nouveau-service-de-reservation-en-un-clic-8697595.html
 la-marseillaise:
   title: "Héler un taxi, en un simple clic"
-  extract: "Le.Taxi s'adresse aussi bien aux chauffeurs qu'aux usagers. Les premiers peuvent y adhérer via un intermédiaire (qu'il s'agisse d'un opérateur de taxi ou d'un central radio). Les seconds en téléchargeant une application sur leur smartphone, ont accès à une carte qui recense tous les taxis disponibles autour d'eux"
+  extract: "Le.Taxi s’adresse aussi bien aux chauffeurs qu’aux usagers. Les premiers peuvent y adhérer via un intermédiaire (qu’il s’agisse d’un opérateur de taxi ou d’un central radio). Les seconds en téléchargeant une application sur leur smartphone, ont accès à une carte qui recense tous les taxis disponibles autour d’eux"
   type: article
   author: Marine Desseigne 
   publication: La Marseillaise 
@@ -28,32 +28,32 @@ la-marseillaise:
   link: http://www.lamarseillaise.fr/herault/societe/44582-montpellier-heler-un-taxi-en-un-simple-clic
 midi-libre:
   title: "[Montpellier] 800 clients sont déjà adeptes dans la ville"
-  extract: La plateforme "Le.Taxi" permet à toute application partenaire d'accéder à la géolocalisation et à la disponibilité des taxis dans leur zone de prise en charge, précise-t-on du coté de la préfecture. Pour le grand public, cela signifie la disponibilité d'applications gratuites permettant de commander immédiatement un véhicule, où que l'on se trouve en France"
+  extract: La plateforme "Le.Taxi" permet à toute application partenaire d’accéder à la géolocalisation et à la disponibilité des taxis dans leur zone de prise en charge, précise-t-on du coté de la préfecture. Pour le grand public, cela signifie la disponibilité d’applications gratuites permettant de commander immédiatement un véhicule, où que l’on se trouve en France"
   type: article
   author: Karim Maoudj 
   publication: Midi Libre 
   date: 9 décembre 2015  
 ouest-france:
   title: "Le client peut choisir son taxi, partout en France, 24 heures sur 24"
-  extract: "Cela va faciliter la distribution des courses, remarque Christophe Jan, le président du groupement des radio-taxis rennais. Actuellement, en appelant notre standard, une demande est traitée entre deux et quatre minutes. Mais quand il y a beaucoup d'appels, le client peut attendre jusqu'à vingt minutes s'il est en bout de chaine. Avec Le.Taxi, ce sera beaucoup plus rapide."
+  extract: "Cela va faciliter la distribution des courses, remarque Christophe Jan, le président du groupement des radio-taxis rennais. Actuellement, en appelant notre standard, une demande est traitée entre deux et quatre minutes. Mais quand il y a beaucoup d’appels, le client peut attendre jusqu’à vingt minutes s’il est en bout de chaine. Avec Le.Taxi, ce sera beaucoup plus rapide."
   type: article
   author: Olivier Berrezai
   publication: Ouest France 
   date: 9 novembre 2015
 l-express:
-  title: "\"Un clic, un taxi.\" C'est aussi simple que cela"
+  title: "\"Un clic, un taxi.\" C’est aussi simple que cela"
   extract: "Avec Le.Taxi, les clients pourront localiser et réserver le taxi le plus proche"
   type: article
-  publiation: "L'Express"
+  publiation: "L’Express"
   date: 19 octobre 2015
 les-echos:
   title: "« Le.taxi » fournira une API de géolocalisation des taxis"
-  extract: "La plate-forme Le.Taxi a été présentée samedi 17 octobre par le ministre de l'Intérieur Bernard Cazeneuve, et Clotilde Valter, secrétaire d'État chargée de la Réforme de l'État et de la Simplification."
+  extract: "La plate-forme Le.Taxi a été présentée samedi 17 octobre par le ministre de l’Intérieur Bernard Cazeneuve, et Clotilde Valter, secrétaire d’État chargée de la Réforme de l’État et de la Simplification."
   type: article
   publication: Les Echos
   date: 19 octobre 2015
 bfm:
-  title: C'est l'Etat qui vient à la rescousse des taxis
+  title: C’est l’Etat qui vient à la rescousse des taxis
   extract: "Cette plateforme de géolocalisation et de réservation en ligne permet aussi de noter la qualité des services fournis aux usagers."
   author: Pierre Kupferman
   type: video
@@ -61,7 +61,7 @@ bfm:
   date: 19 octobre 2015
 le-figaro:
   title: le.Taxi doit permettre de gagner du temps et de trouver plus facilement un chauffeur
-  extract: "Si les taxis répondent présents, Le.Taxi aura deux avantages face à des entreprises comme Uber. D'abord sa taille. […] Ensuite, le rayonnement géographique. Il y a des taxis quasiment dans toutes les villes"
+  extract: "Si les taxis répondent présents, Le.Taxi aura deux avantages face à des entreprises comme Uber. D’abord sa taille. […] Ensuite, le rayonnement géographique. Il y a des taxis quasiment dans toutes les villes"
   type: article
   author: Elsa Bembaron
   publication: Le Figaro
@@ -74,7 +74,7 @@ le-figaro:
   date: 19 octobre 2015
 le-parisien:
   title: Le gouvernement dévoile son arme anti-Uber
-  extract: "« Ce projet constitue une innovation majeure », selon le Ministre de l'Intérieur Bernard Cazeneuve, et la secrétaire d'État chargée de la Réforme de l'État et de la Simplification, Clotilde Valter »"
+  extract: "« Ce projet constitue une innovation majeure », selon le Ministre de l’Intérieur Bernard Cazeneuve, et la secrétaire d’État chargée de la Réforme de l’État et de la Simplification, Clotilde Valter »"
   type: article
   author: Erwan Benezet
   publication: Le Parisien
@@ -86,8 +86,8 @@ la-revue-du-digital:
   publication: La Revue du Digital
   date: 19 octobre 2015
 france-inter:
-  title: "Trouver un taxi plus facilement : C'est la promesse de la nouvelle plateforme électronique gratuite, \"Le.Taxi\""
-  extract: "Aujourd'hui, les applications \"taxis\" sont nombreuses et liée à une marque. […] Mais si vous y êtes abonnés vous n'avez accès qu'aux taxis de la compagnie. Cette plateforme vous permettra de contacter plus globalement les taxis proches de vous."
+  title: "Trouver un taxi plus facilement : C’est la promesse de la nouvelle plateforme électronique gratuite, \"Le.Taxi\""
+  extract: "Aujourd’hui, les applications \"taxis\" sont nombreuses et liée à une marque. […] Mais si vous y êtes abonnés vous n’avez accès qu’aux taxis de la compagnie. Cette plateforme vous permettra de contacter plus globalement les taxis proches de vous."
   type: reportage
   author: Julie Pietri
   publication: France Inter
@@ -99,22 +99,22 @@ rfi:
   publication: RFI
   date: 18 octobre 2015
 rtl:
-  title: L'État lance sa plateforme pour héler un taxi
-  extract: "Elle s'appelle Le.Taxi. [Elle] permet aux utilisateurs de contacter les taxis connectés à cette plateforme partout en France."
+  title: L’État lance sa plateforme pour héler un taxi
+  extract: "Elle s’appelle Le.Taxi. [Elle] permet aux utilisateurs de contacter les taxis connectés à cette plateforme partout en France."
   type: sujet
   author: Eléanor Douet
   publication: RTL
   date: 18 octobre 2015
 numerama:
   title: "Le.Taxi fournira enfin une API de géolocalisation des taxis disponibles"
-  extract: "Actuellement en test, la plateforme Le.TAXI qui fournira une API de géolocalisation des taxis sera lancée pour toute la France d'ici la fin de l'année."
+  extract: "Actuellement en test, la plateforme Le.TAXI qui fournira une API de géolocalisation des taxis sera lancée pour toute la France d’ici la fin de l’année."
   type: article
   author: Guillaume Champeau
   publication: Numerama
   date: 16 octobre 2015
 midi-libre-2:
   title: "Taxi : la maraude de retour grace au net"
-  extract: "Moderniser l'image et renouveler les habitudes d'utilisation du taxi pour élargir la clientèle"
+  extract: "Moderniser l’image et renouveler les habitudes d’utilisation du taxi pour élargir la clientèle"
   type: article
   author: Christophe Gayraud
   publication: Le Midi Libre
