@@ -2,7 +2,3 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-<IfModule mod_headers.c>
-Header set Strict-Transport-Security "max-age=10886400; includeSubDomains; preload"
-</IfModule>
