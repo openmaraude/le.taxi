@@ -2,10 +2,6 @@ onlymoov:
   name: Onlymoov
   android: https://play.google.com/store/apps/details?id=https://www.onlymoov.com/
   description: Grand Lyon
-optimod-lyon:
-  name: Optimod'Lyon
-  android: https://play.google.com/store/apps/details?id=fr.cityway.android_v3.optymod
-  description: Grand Lyon
 paris-taxis:
   name: Paris Taxis
   android: https://play.google.com/store/apps/details?id=com.appspanel.taxiparis
