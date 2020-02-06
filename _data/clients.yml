@@ -1,6 +1,7 @@
 onlymoov:
   name: Onlymoov
   android: https://play.google.com/store/apps/details?id=https://www.onlymoov.com/
+  site: https://taxi.onlymoov.com/
   description: Grand Lyon
 paris-taxis:
   name: Paris Taxis
