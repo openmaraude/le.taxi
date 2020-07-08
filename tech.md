@@ -27,9 +27,8 @@ Si vous souhaitez implémenter l’API du _Registre de Disponibilité des Taxis_
 
 Les environnements des développement, recette et production sont les suivants :
 
-| | Requètes HTTPS | Géolocalisation UDP | Documentation |
-|---|---|---|---|
-| DEV | dev.api.taxi | geoloc.dev.api.taxi | [Documentation](https://dev.api.taxi/documentation) |
-| TEST | test.api.taxi | geoloc.test.api.taxi | [Documentation](https://test.api.taxi/documentation) |
-| PROD | api.taxi |	geoloc.api.taxi | [Documentation](https://api.taxi/documentation) |
+|      | Requètes HTTPS | Géolocalisation UDP | Documentation                                       |
+|------|----------------|---------------------|-----------------------------------------------------|
+| DEV  | dev.api.taxi   | geoloc.dev.api.taxi | [Documentation](https://dev.api.taxi/documentation) |
+| PROD | api.taxi       | geoloc.api.taxi     | [Documentation](https://api.taxi/documentation)     |
 {: .table }
