@@ -15,7 +15,7 @@ Pour adhérer à la plateforme en tant qu’opérateur de taxis, il suffit ensui
   - des [Conditions Générales d’Utilisation](/assets/documents/CGU.pdf).
   - et des [Tests fonctionnels](/tests.html)
 
-L’accès au registre est gratuit et emporte l’adhésion pleine et entière aux Conditions Générales d’Utilisation. Toute demande d’accès en tant qu’opérateur de taxis devra être formulée électroniquement via [la procédure en ligne](https://forms.gle/v5WqvAABXQUYcKR18).
+L’accès au registre est gratuit et emporte l’adhésion pleine et entière aux Conditions Générales d’Utilisation. Toute demande d’accès en tant qu’opérateur de taxis devra être formulée électroniquement via [la procédure en ligne](https://api.gouv.fr/les-api/le-taxi/demande-acces).
 
 ## Vous êtes un éditeur d’applications ou un équipementier de taxis
 
@@ -25,4 +25,4 @@ Pour adhérer à la plateforme en tant qu’éditeur d’application, que ce soi
   - des [Conditions Générales d’Utilisation](/assets/documents/CGU.pdf).
   - et des [Tests fonctionnels](/tests.html)
 
-L’accès au registre est gratuit et emporte l’adhésion pleine et entière aux Conditions Générales d’Utilisation. Toute demande d’accès en tant qu’opérateur de taxis devra être formulée électroniquement via [la procédure en ligne](https://forms.gle/v5WqvAABXQUYcKR18).
+L’accès au registre est gratuit et emporte l’adhésion pleine et entière aux Conditions Générales d’Utilisation. Toute demande d’accès en tant qu’opérateur de taxis devra être formulée électroniquement via [la procédure en ligne](https://api.gouv.fr/les-api/le-taxi/demande-acces).
