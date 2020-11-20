@@ -5,7 +5,7 @@ title: Fonctionnement
 
 ## Schéma du dispositif
 
-[![Fonctionnement](/assets/images/schema_fonctionnement.png)](/assets/images/schema_fonctionnement.png)
+[![Fonctionnement](/assets/images/fonctionnement_letaxi.png)](/assets/images/schema_fonctionnement.png)
 
 ### Inscription du chauffeur au registre
 
