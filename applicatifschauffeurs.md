@@ -14,7 +14,7 @@ En proposant aux chauffeurs qui utilisent vos outils la connexion à l'API le.ta
 L’obligation de connexion au registre de disponibilité des taxis prévue à l’article [L. 3121-11-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039784232/2020-12-27) du code des transports repose sur le chauffeur. Un décret d'application détaillant l'obligation et notamment les conditions des refus de courses est en préparation et devrait être publié avant fin 2020. Les applicatifs chauffeurs (opérateurs, “centrale de réservation” au sens du code des transports), peuvent choisir d'offrir ou non aux chauffeurs un service de connexion à l’API lui permettant de répondre à son obligation. 
 
 
-## Quelle est la procédure à suivre pour se relier à la plateforme ?
+## Quelle est la procédure à suivre pour se connecter à l'API ?
 
 Pour adhérer à la plateforme en tant qu’opérateur de taxis ou équipementier, vous pouvez prendre connaissance :
   - de la [documentation technique de l’API](/tech.html)
