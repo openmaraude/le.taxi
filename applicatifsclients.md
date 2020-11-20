@@ -1,3 +1,9 @@
+---
+layout: one-section
+title: Applicatifs clients
+---
+
+
 ## Qu'est ce que la maraude électronique ?
 
 La maraude électronique est une déclinaison du service public de maraude physique (héler un taxi à la main) aux environnements numériques. Ainsi, grâce à la maraude électronique il devient possible d'héler un taxi avec son smartphone !
