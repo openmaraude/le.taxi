@@ -9,7 +9,7 @@ Initié en 2015, le projet Le.Taxi vise à doter la France d’un registre natio
 
 En 2018 plus de 30 000 courses distribuées par le registre et plus de 20 partenaires se sont connectés.
 
-Le projet prend un nouveau virage en 2021 avec l'entrée en vigueur de l'obligation de connexion de tous les chauffeurs opérant sur le territoire national. 
+Le projet prend un nouveau virage en 2021 avec l'entrée en vigueur de l'obligation de connexion de tous les chauffeurs opérant sur le territoire national (article [L. 3121-11-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039784232/2020-12-27) du code des transports)
 
 ## Équipe le.taxi
 
