@@ -16,7 +16,7 @@ L'API ne propose pas de fonctionnalités de paiement ou de réservation.
 
 ## Pourquoi se connecter à l'API de maraude électronique ?
 
-L'API le.taxi est la base de taxis disponibles en temps réel la plus vaste, puisqu'elle intègre les chauffeurs. La maraude électronique offre un service simple, gratuit et accessible à tous.
+L'API le.taxi est la base de taxis disponibles en temps réel la plus vaste, puisqu'elle a vocation à intègrer tous les chauffeurs opérant sur le territoire français dans les prochains mois. Pour les clients, la maraude électronique offre un service simple, gratuit et accessible à tous.
 
 ## Pourquoi l'API n'intégère pas le paiement et la réservation ?
 
