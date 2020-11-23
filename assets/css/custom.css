@@ -20,6 +20,8 @@
 .index-hero h1 {
     color: #fff;
     text-shadow: -1px 1px 1px #555;
+    text-align: center;
+    white-space: pre-wrap;
 }
 
 .video__container {
