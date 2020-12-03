@@ -19,9 +19,7 @@ La documentation complètes des APIs REST du _Registre de Disponibilité des Tax
 
 L’authentification de l’application accédant au _Registre de Disponibilité des Taxis_ est faite lors de chaque requète en incluant une en-tête HTTP X-API-KEY.
 
-Les clés d’API sont accessibles pour les développeurs accrédités ici : <https://api.taxi/user_key>.
-
-Si vous souhaitez implémenter l’API du _Registre de Disponibilité des Taxis_, vous pouvez commencer par étudier la documentation, librement accessible, puis demandez une clé d’API en faisant votre demande en ligne ici : https://api.gouv.fr/les-api/le-taxi/demande-acces
+Si vous souhaitez implémenter l’API du _Registre de Disponibilité des Taxis_, vous pouvez commencer par étudier la documentation, librement accessible, puis demandez une clé d’API en faisant votre demande en ligne ici : <https://api.gouv.fr/les-api/le-taxi/demande-acces>
 
 # Infrastructure
 
