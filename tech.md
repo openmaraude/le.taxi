@@ -21,7 +21,7 @@ L’authentification de l’application accédant au _Registre de Disponibilité
 
 Les clés d’API sont accessibles pour les développeurs accrédités ici : <https://api.taxi/user_key>.
 
-Si vous souhaitez implémenter l’API du _Registre de Disponibilité des Taxis_, vous pouvez commencer par étudier la documentation, librement accessible, puis demandez une clé d’API en écrivant à l’adresse : apikey -[at]- le.taxi
+Si vous souhaitez implémenter l’API du _Registre de Disponibilité des Taxis_, vous pouvez commencer par étudier la documentation, librement accessible, puis demandez une clé d’API en faisant votre demande en ligne ici : https://api.gouv.fr/les-api/le-taxi/demande-acces
 
 # Infrastructure
 
