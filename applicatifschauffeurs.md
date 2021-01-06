@@ -29,7 +29,7 @@ L’accès au registre est gratuit et emporte l’adhésion pleine et entière a
 
 Plusieurs équipementiers, opérateurs et centraux radios sont déjà reliés à l'API :
 
-### Equipementiers : 
+### Editeurs logiciels : 
 - Axygest
 - Appsolu
 - Az conception 
