@@ -23,7 +23,6 @@ Pour un opérateur :
 * recevoir une course : constater le dépassement du délai d'attente de la confirmation par le chauffeur
 * recevoir une course : confirmer, recevoir la reconfirmation client, puis annuler chauffeur
 * recevoir une course : confirmer, recevoir la reconfirmation client, recevoir ensuite une annulation client, information du chauffeur et repassage en libre
-* signaler un client indélicat a posteriori
 
 Pour un moteur de recherche :
 
