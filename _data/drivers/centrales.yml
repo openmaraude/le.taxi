@@ -10,6 +10,10 @@ g7:
   name: G7
   site: https://www.g7.fr/chauffeur-g7-taxi
   price: "30€/mois à la charge du chauffeur"
+taxis-jaunes:
+  name: Taxis Jaunes
+  site: https://taxisjaunes.fr/
+  price: free
 taxi-lyonnais:
   name: Taxi Lyonnais
   site: https://www.tl.fr/
