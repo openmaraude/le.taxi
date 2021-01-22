@@ -13,8 +13,10 @@ tako:
   ios: https://itunes.apple.com/fr/app/id1473625254?mt=8
   site: http://www.tak-o.com/
   description: France
-taxiloc:
-  name: Taxiloc
-  android: https://play.google.com/store/apps/details?id=com.deveryware.tram.taxiloc.client
-  ios: https://itunes.apple.com/fr/app/id511899249?mt=8
+mob1taxi:
+  name: Mob1taxi
+  android: https://play.google.com/store/apps/details?id=com.mob1taxi&feature=more_from_developerr
+  ios: https://apps.apple.com/fr/app/mob1taxi/id576991159?mt=8
+  site: hhttps://www.mob1taxi.com/PASSAGER
   description: France
+  
