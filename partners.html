@@ -15,19 +15,36 @@ title: Partenaires
         </div>
     </div>
 </section>
-
 <section class="section">
     <div class="container">
-        <h1>Applicatifs chauffeurs</h1>
-        <div class="cards">
+        <h1>Applications chauffeurs</h1>
+ <div class="cards">
             <div class="row">
             {% for id_app in site.data.drivers.applications %}
                 {% include application.html id_app=id_app type="applications/drivers" display_type="Application" %}
             {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <h1>Centrales et Groupements</h1>
+ <div class="cards">
+            <div class="row">
             {% for id_app in site.data.drivers.centrales %}
                 {% include application.html id_app=id_app type="centrales" display_type="Centrale" %}
             {% endfor %}
-            {% for id_app in site.data.drivers.equipementiers %}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <h1>Editeurs logiciels (système de dispatch)</h1>
+ <div class="cards">
+            <div class="row">
+               {% for id_app in site.data.drivers.equipementiers %}
                 {% include application.html id_app=id_app type="equipementiers" display_type="Équipementier" %}
             {% endfor %}
             </div>
