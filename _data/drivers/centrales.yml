@@ -14,6 +14,10 @@ lestaxisdusud:
   name: Les Taxis du Sud
   site: https://www.lestaxisdusud.com/
   price: free
+taxis52:
+  name: Taxis 52 Haute Marne
+  site: https://www.taxis52.com/
+  price: free
 taxis-jaunes:
   name: Taxis Jaunes
   site: https://taxisjaunes.fr/
