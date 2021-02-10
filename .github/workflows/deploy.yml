@@ -4,7 +4,6 @@ on:
   push:
     branches: [ $default-branch ]
   pull_request:
-    branches: [ $default-branch ]
 
 jobs:
   deploy:
@@ -18,6 +17,7 @@ jobs:
         jekyll/builder:latest /bin/bash -c "chown -R jekyll:jekyll /srv/jekyll && jekyll build"
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      if: github.event_name == 'push'
       env:
         FTP_SERVER: ${{ secrets.FTP_SERVER }}
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
