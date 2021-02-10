@@ -10,7 +10,7 @@ g7:
   name: G7
   site: https://www.g7.fr/chauffeur-g7-taxi
   price: "30€/mois à la charge du chauffeur"
-lestaxisdusud:
+taxisdusud:
   name: Les Taxis du Sud
   site: https://www.lestaxisdusud.com/
   price: free
