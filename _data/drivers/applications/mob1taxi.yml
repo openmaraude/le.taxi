@@ -2,5 +2,5 @@ name: "Mob1taxi"
 description: "Téléchargement gratuit."
 android: https://play.google.com/store/apps/details?id=com.driver.mob1taxi
 ios: https://apps.apple.com/fr/app/mob1taxi-chauffeurs/id1458521482
-site: https://www.mob1taxi.com
+site: https://www.mob1taxi.com/passager
 is_free: true
