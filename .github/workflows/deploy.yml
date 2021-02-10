@@ -5,11 +5,19 @@ on:
     branches: [ $default-branch ]
   pull_request:
 
+env:
+  FTP_SERVER: ${{ secrets.FTP_SERVER }}
+  FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+  FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+  LOCAL_DIR: ${{ secrets.LOCAL_DIR }}
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - name: Setup upterm session
+      uses: lhotari/action-upterm@v1
     - name: Build the site in the jekyll/builder container
       run: |
         docker run \
