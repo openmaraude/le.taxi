@@ -21,6 +21,8 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chown -R jekyll:jekyll /srv/jekyll && jekyll build"
+    - name: Setup upterm session
+      uses: lhotari/action-upterm@v1
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       if: github.event_name == 'push'
@@ -31,5 +33,3 @@ jobs:
         LOCAL_DIR: _site
         METHOD: sftp
         ARGS: --delete
-    - name: Setup upterm session
-      uses: lhotari/action-upterm@v1
