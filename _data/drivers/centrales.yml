@@ -38,7 +38,3 @@ tbdm:
   name: Taxi Bleu du Midi
   site: http://www.taxibleudumidi.fr/
   price: free
-viataxi-lyon:
-  name: Via Taxi
-  site: http://www.viataxi.fr/
-  price: free
