@@ -30,11 +30,3 @@ taxis-marseillais:
   name: Les Taxis Marseillais
   site: http://lestaxismarseillais.fr/
   price: free
-taxis-rennais:
-  name: Taxis Rennais
-  site: http://www.taxisrennais.fr/
-  price: free
-tbdm:
-  name: Taxi Bleu du Midi
-  site: http://www.taxibleudumidi.fr/
-  price: free
