@@ -2,7 +2,6 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ $default-branch ]
   pull_request:
 
 jobs:
