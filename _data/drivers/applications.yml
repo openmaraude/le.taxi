@@ -1,0 +1,23 @@
+# Keep alphabetical order!
+mob1taxi:
+  name: "Mob1taxi"
+  description: "Téléchargement gratuit. Système de crédit payant, fixé à 0,75 € HT par course."
+  android: https://play.google.com/store/apps/details?id=com.driver.mob1taxi
+  ios: https://apps.apple.com/fr/app/mob1taxi-chauffeurs/id1458521482
+  site: https://www.mob1taxi.com/passager
+  is_free: true
+tako:
+  name: "TAKO CHAUFFEUR"
+  description: "Téléchargement gratuit. Sans commission pour les courses payées directement en CB ou espèces. 0,90 € sur les courses payées via mobile. Présence : France"
+  android: https://play.google.com/store/apps/details?id=com.triperz.tako_driver&hl=fr
+  ios: https://apps.apple.com/fr/app/tako-pro/id1473625302
+  site: https://www.tak-o.com/CHAUFFEUR.html
+  is_free: true
+taxibyspotloc:
+  name: Taxi! by Spotloc
+  description: Téléchargement gratuit. Sans commission, sans abonnement, règlement des courses en maraude le.taxi à bord.
+  Présence : France entière
+  android: https://play.google.com/store/apps/details?id=com.spotloc.taxi&hl=fr
+  ios: https://apps.apple.com/fr/app/taxi-by-spotloc/id1469036335
+  site: https://www.spotloc.solutions/
+  is_free: true
